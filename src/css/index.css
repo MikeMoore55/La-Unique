@@ -35,12 +35,39 @@ nav .logo .logo-img{
     left: 0%;
 }
 
-.landing-section .landing-img{
+.landing-section .img-container{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     margin: 0%;
-    top: 0%;
+    top: 20%;
+    left: 30%;
+    animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@keyframes FadeInOut {
+    0%{
+        background-image: url("../images/sign.jpg");
+    }
+
+    33.333%{
+        background-image: url("../images/room-from-front.jpg");
+    }
+
+    66.666%{
+        background-image: url("../images/room-from-back.jpg");
+    }
+
+    100%{
+        background-image: url("../images/entrance.jpg");
+    }
 }
 
 .landing-section .intro{
@@ -73,6 +100,19 @@ nav .logo .logo-img{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     line-height: 155%;
+}
+
+.landing-section .down-arrow{
+    position: fixed;
+    bottom: 2%;
+    left: 45%;
+    width: 5%;
+}
+
+.landing-section .down-arrow .arrow{
+    position: relative;
+    width: 50%;
+    margin-left: 50%;
 }
 
 
