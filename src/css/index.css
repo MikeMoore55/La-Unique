@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #FEF0E8;
 }
@@ -28,6 +33,8 @@ body{
     position: relative;
     margin: 5% 4% 0% 4%;
     font-weight: 700;
+    text-decoration: none;
+    color: #D6A49A;
 }
 
 .nav-bar .logo{
@@ -220,7 +227,14 @@ body{
     font-size: 0.9em;
 }
 
-
-
+.mid-section{
+    position: absolute;
+    margin: 100% 0% 0% 0%;
+    z-index: 7;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Ubuntu', sans-serif; */
