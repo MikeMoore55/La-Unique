@@ -2,28 +2,66 @@ body{
     background-color: #FEF0E8;
 }
 
-nav{
+.nav-bar{
     position: fixed;
     width: 100%;
-    height: 20%;
+    height: 15%;
     top: 0%;
     left: 0%;
     background-color: white;
     z-index: 5;
-    opacity: 90%;
 }
 
-nav .logo{
+.nav-bar .nav-links{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 40%;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #D6A49A;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.nav-bar .nav-links .link{
+    position: relative;
+    margin: 5% 4% 0% 4%;
+    font-weight: 700;
+}
+
+.nav-bar .logo{
     position: relative;
     top: 0%;
     margin-left: 30%;
     margin-right: 30%;
 }
 
-nav .logo .logo-img{
+.nav-bar .logo .logo-img{
     position: relative;
     width: 30%;
     margin: 0% 35% 0% 35%;
+}
+
+.nav-bar .socials{
+    position: fixed;
+    right: 0%;
+    top: 5%;
+    width: 20%;
+    height: 15%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.nav-bar .socials a{
+    position: relative;
+    width: 70%;
+    margin: 0% 15% 5% 15%;
+}
+
+.nav-bar .socials .social-img{
+    position: relative;
+    width: 100%;
 }
 
 .landing-section{
@@ -33,15 +71,17 @@ nav .logo .logo-img{
     margin: 0%;
     top: 0%;
     left: 0%;
+    padding: 0%;
 }
 
 .landing-section .img-container{
     position: relative;
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 90%;
     margin: 0%;
-    top: 20%;
-    left: 30%;
+    padding: 0%;
+    top: 10%;
+    left: 0%;
     animation-name: FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -49,34 +89,73 @@ nav .logo .logo-img{
     animation-direction: alternate;
     background-position: center;
     background-repeat: no-repeat;
+    color: transparent;
 }
 
 
 @keyframes FadeInOut {
     0%{
-        background-image: url("../images/sign.jpg");
+        background-image: url("../images/sign-lrg.jpg");
     }
 
     33.333%{
-        background-image: url("../images/room-from-front.jpg");
+        background-image: url("../images/main-room-lrg.jpg");
     }
 
     66.666%{
-        background-image: url("../images/room-from-back.jpg");
+        background-image: url("../images/main-room-back-lrg.jpg");
     }
 
     100%{
-        background-image: url("../images/entrance.jpg");
+        background-image: url("../images/front-entrance-lrg.jpg");
     }
+}
+
+.landing-section .side-book-btn{
+    position: fixed;
+    top: 35%;
+    right: 0%;
+    padding: 3% 1% 3% 1%;
+    background-color: #D6A49A;
+    z-index: 3;
+    animation-name: BookBtn;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.landing-section .side-book-btn:active{
+    transform: scale(0.9);
+    background-color: #FEF0E8;
+}
+
+@keyframes BookBtn {
+    from{
+        transform: scale(0.9);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.landing-section .side-book-btn .book-link{
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 .landing-section .intro{
     position: fixed;
     top: 30%;
     left: 3%;
-    width: 20%;
+    width: 25%;
     background-color: #FEF0E8;
-    padding: 2% 1% 3% 1%;
+    padding: 2% 2% 3% 2%;
     opacity: 90%;
     box-shadow: #D6A49A 30px -30px 0px 0px;
 }
@@ -105,14 +184,40 @@ nav .logo .logo-img{
 .landing-section .down-arrow{
     position: fixed;
     bottom: 2%;
-    left: 45%;
-    width: 5%;
+    left: 42%;
+    width: 8%;
+    animation-name: UpDown;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes UpDown {
+    from{
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateY(-30%);
+    }
 }
 
 .landing-section .down-arrow .arrow{
     position: relative;
     width: 50%;
     margin-left: 50%;
+}
+
+.landing-section .branding{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2% 2% 0% 2%;
+    font-size: 0.9em;
 }
 
 
