@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- <script src="./src/js/index.js" defer></script> -->
 </head>
 <body>
     <nav class="nav-bar">
@@ -58,20 +59,37 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est deleniti dicta eveniet beatae officiis, praesentium ullam rerum, consectetur odit asperiores ex nam! Obcaecati dolore, ab doloremque hic consequatur a debitis.</p>
                 </div>
                 <div class="about-btns-container">
-                    <div class="about-btn">
-                        <h4>The Journey</h4>
+                    <div id="history-btn" class="about-btn" onclick="showHis()">
+                        <h4>The Journey Through Time</h4>
                         <img class="about-img" src="./src/images/history-icon.png" alt="history icon">
                         <p class="text-link"> - The History - </p>
                     </div>
-                    <div class="about-btn">
+                    <div id="experince-btn" class="about-btn" onclick="showExp()">
                         <h4>The Feeling of Wonder</h4>
                         <img class="about-img" src="./src/images/experience-icon.png" alt="experience icon"> 
                         <p class="text-link"> - The Experience - </p>
                     </div>
-                    <div class="about-btn">
+                    <div id="salon-btn" class="about-btn" onclick="showSln()">
                         <h4>The power of place</h4>
                         <img class="about-img" src="./src/images/salon-icon.png" alt="salon icon">
                         <p class="text-link"> - The Salon - </p>
+                    </div>
+                </div>
+                <div class="about-info-container">
+                    <div id="history-info" class="his-info">
+                        <h4>The History</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi impedit eveniet laboriosam nisi illo quia molestias deserunt quibusdam magni. Molestiae dolorum et doloremque asperiores soluta nam quae? Voluptate, odio!</p>
+                        <p class="close" onclick="hideHis()">close</p>
+                    </div>
+                    <div id="experience-info" class="exp-info">
+                        <h4>The Experience</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi impedit eveniet laboriosam nisi illo quia molestias deserunt quibusdam magni. Molestiae dolorum et doloremque asperiores soluta nam quae? Voluptate, odio!</p>
+                        <p class="close" onclick="hideExp()">close</p>
+                    </div>
+                    <div id="salon-info" class="sln-info">
+                        <h4>The Salon</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi impedit eveniet laboriosam nisi illo quia molestias deserunt quibusdam magni. Molestiae dolorum et doloremque asperiores soluta nam quae? Voluptate, odio!</p>
+                        <p class="close" onclick="hideSln()">close</p>
                     </div>
                 </div>
             </div>
@@ -80,5 +98,6 @@
     <footer>
 
     </footer>
+    <script src="./src/js/index.js" defer></script>
 </body>
 </html>

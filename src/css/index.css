@@ -318,6 +318,93 @@ body{
     font-size: 1.2em;
 }
 
+.about .about-info-container{
+    position: relative;
+    background-color: #8A4D47;
+    margin: 0%;
+}
 
+.about .about-info-container .his-info{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+    text-align: center;
+    display: none;
+}
+
+.about .about-info-container .his-info h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #D6A49A;
+}
+
+.about .about-info-container .his-info p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FEF0E8;
+}
+
+.about .about-info-container .his-info .close{
+    color: #D6A49A;
+}
+
+.about .about-info-container .exp-info{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+    text-align: center;
+    display: none;
+}
+
+.about .about-info-container .exp-info h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #D6A49A;
+}
+
+.about .about-info-container .exp-info p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FEF0E8;
+}
+
+.about .about-info-container .exp-info .close{
+    color: #D6A49A;
+}
+
+.about .about-info-container .sln-info{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+    text-align: center;
+    display: none;
+}
+
+.about .about-info-container .sln-info h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #D6A49A;
+}
+
+.about .about-info-container .sln-info p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FEF0E8;
+}
+
+.about .about-info-container .sln-info .close{
+    color: #D6A49A;
+}
+
+.about .about-info-container .info h4{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #D6A49A;
+    font-size: 1.3em;
+}
+
+.about .about-info-container .info p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    color: #FEF0E8;
+    font-size: 1em;
+}
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Ubuntu', sans-serif; */
