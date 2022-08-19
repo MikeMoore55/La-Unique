@@ -7,6 +7,11 @@ body{
     background-color: #FEF0E8;
 }
 
+.name{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2em; 
+}
+
 .nav-bar{
     position: fixed;
     width: 100%;
@@ -239,7 +244,7 @@ body{
 .mid-section{
     position: absolute;
     margin: 100% 0% 0% 0%;
-    padding: 3% 0% 3% 0%;
+    padding: 3% 0% 0% 0%;
     z-index: 7;
     background-color: #FEF0E8;
     top: 0%;
@@ -406,5 +411,161 @@ body{
     color: #FEF0E8;
     font-size: 1em;
 }
+
+.treatments{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+}
+
+.treatments h2{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2em;
+    border-left: #D6A49A 5px solid;
+    padding-left: 2%;
+}
+
+.treatments p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+    font-size: 1.2em; 
+}
+
+.membership{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+}
+
+.membership h2{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2em;
+    border-left: #D6A49A 5px solid;
+    padding-left: 2%;
+}
+
+.membership p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+    font-size: 1.2em; 
+}
+
+.contact{
+    position: relative;
+    padding: 1% 7% 4% 7%;
+}
+
+.contact h2{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2em;
+    border-left: #D6A49A 5px solid;
+    padding-left: 2%;
+}
+
+.contact p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+    font-size: 1.2em; 
+}
+
+.gallery{
+    position: relative;
+    padding: 1% 7% 1% 7%;
+}
+
+.gallery h2{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2em;
+    border-left: #D6A49A 5px solid;
+    padding-left: 2%;
+}
+
+.gallery .img-container{
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.gallery .img-container .imgs{
+    position: relative;
+    width: 100%;
+}
+
+.gallery .img-container .imgs:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    position: relative;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    width: 100%;
+    padding: 2% 1% 1% 1%;
+}
+
+.footer .footer-logo{
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-logo .logo-img{
+    position: relative;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+}
+
+.footer .footer-links{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #D6A49A;
+}
+
+.footer .footer-socials{
+    margin-top: 7%;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer .footer-socials a{
+    position: relative;
+    width: 70%;
+    margin: 0% 15% 10% 15%;
+}
+
+.footer .footer-socials .social-img{
+    position: relative;
+    width: 100%;
+}
+
+.footer .branding{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.footer .blank{
+    color: transparent;
+}
+
+.footer .creator{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+    color: #8A4D47;
+    font-weight: 700;   
+}
+
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Ubuntu', sans-serif; */
