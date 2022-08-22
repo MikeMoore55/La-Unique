@@ -15,7 +15,7 @@ function showHis(){
     hisBtn.style.backgroundColor = "#8A4D47";
     expBtn.style.backgroundColor = "#D6A49A";
     slnBtn.style.backgroundColor = "#D6A49A";
-    
+
     hisCont.style.display="block";
     expCont.style.display="none";
     slnCont.style.display="none";
@@ -41,14 +41,17 @@ function showSln(){
 
 function hideHis(){
     hisCont.style.display="none";
+    hisBtn.style.backgroundColor = "#D6A49A";
 }
 
 function hideExp(){
     expCont.style.display="none";
+    expBtn.style.backgroundColor = "#D6A49A";
 }
 
 function hideSln(){
     slnCont.style.display="none";
+    slnBtn.style.backgroundColor = "#D6A49A";
 }
 
 //Get the button
