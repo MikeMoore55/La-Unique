@@ -20,6 +20,7 @@ body{
     left: 0%;
     background-color: white;
     z-index: 15;
+    box-shadow: 0px 0px 4px 4px rgb(107, 105, 105);
 }
 
 .nav-bar .nav-links{
@@ -294,31 +295,32 @@ body{
     grid-template-columns: 33.33333% 33.33333% 33.33333%;
 }
 
-.about .about-btns-container .about-btn{
+.about .about-btns-container .his-btn{
     position: relative;
     text-align: center;
     padding: 1%;
 }
 
-.about .about-btns-container .about-btn:hover{
+.about .about-btns-container .his-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
     transform: scale(1.1);
+    z-index: 7;
 }
 
-.about .about-btns-container .about-btn h4{
+.about .about-btns-container .his-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
     font-size: 1.5em;
 }
 
-.about .about-btns-container .about-btn .about-img{
+.about .about-btns-container .his-btn .about-img{
     position: relative;
     width: 20%;
     margin: 1% 40% 1% 40%;
 }
 
-.about .about-btns-container .about-btn .text-link{
+.about .about-btns-container .his-btn .text-link{
     position: relative;
     color: #FEF0E8;
     font-family: 'Ubuntu', sans-serif; 
@@ -354,6 +356,38 @@ body{
     color: #D6A49A;
 }
 
+.about .about-btns-container .exp-btn{
+    position: relative;
+    text-align: center;
+    padding: 1%;
+}
+
+.about .about-btns-container .exp-btn:hover{
+    background-color: #8A4D47;
+    color: #FEF0E8;
+    transform: scale(1.1);
+    z-index: 7;
+}
+
+.about .about-btns-container .exp-btn h4{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+}
+
+.about .about-btns-container .exp-btn .about-img{
+    position: relative;
+    width: 20%;
+    margin: 1% 40% 1% 40%;
+}
+
+.about .about-btns-container .exp-btn .text-link{
+    position: relative;
+    color: #FEF0E8;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 1.2em;
+}
+
 .about .about-info-container .exp-info{
     position: relative;
     padding: 1% 7% 1% 7%;
@@ -375,6 +409,38 @@ body{
 
 .about .about-info-container .exp-info .close{
     color: #D6A49A;
+}
+
+.about .about-btns-container .sln-btn{
+    position: relative;
+    text-align: center;
+    padding: 1%;
+}
+
+.about .about-btns-container .sln-btn:hover{
+    background-color: #8A4D47;
+    color: #FEF0E8;
+    transform: scale(1.1);
+    z-index: 7;
+}
+
+.about .about-btns-container .sln-btn h4{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+}
+
+.about .about-btns-container .sln-btn .about-img{
+    position: relative;
+    width: 20%;
+    margin: 1% 40% 1% 40%;
+}
+
+.about .about-btns-container .sln-btn .text-link{
+    position: relative;
+    color: #FEF0E8;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 1.2em;
 }
 
 .about .about-info-container .sln-info{
@@ -510,6 +576,7 @@ body{
     grid-template-columns: 60% 20% 20%;
     width: 100%;
     padding: 2% 1% 1% 1%;
+    box-shadow: 6px 0px 4px 4px rgb(107, 105, 105);
 }
 
 .footer .footer-logo{
@@ -576,3 +643,8 @@ body{
 
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Ubuntu', sans-serif; */
+
+
+/* MEDIA QUERIES */
+/* --- tablets & ipads --- */
+

@@ -15,6 +15,7 @@ function showHis(){
     hisBtn.style.backgroundColor = "#8A4D47";
     expBtn.style.backgroundColor = "#D6A49A";
     slnBtn.style.backgroundColor = "#D6A49A";
+    
     hisCont.style.display="block";
     expCont.style.display="none";
     slnCont.style.display="none";
