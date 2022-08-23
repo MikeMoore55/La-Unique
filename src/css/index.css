@@ -656,6 +656,42 @@ body{
     font-size: 1.2em; 
 }
 
+.contact .contact-info{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact .contact-info .social-info{
+    position: relative;
+}
+
+.contact .contact-info h3{
+    font-family: 'Ubuntu', sans-serif; 
+    text-decoration: underline;
+    color: #8A4D47;
+    font-size: 1.5em;
+}
+
+.contact .contact-info .social-info a{
+    font-family: 'Ubuntu', sans-serif; 
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.contact .contact-info .social-info .contact-socials{
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.contact .contact-info .social-info .contact-socials .social-img{
+    position: relative;
+    width: 60%;
+    margin: 1% 20% 1% 20%;
+}
 
 /* --- FOOTER --- */
 
