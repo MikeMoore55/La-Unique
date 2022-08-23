@@ -9,13 +9,23 @@ body{
 
 .name{
     font-family: 'Great Vibes', cursive;
-    font-size: 1.2em; 
+    font-size: 1.3em;
+    font-weight: 700; 
+    color: #D6A49A;
 }
+
+.hidden{
+    color: transparent;
+}
+
+
+/* --- NAVBAR --- */
+
 
 .nav-bar{
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 11%;
     top: 0%;
     left: 0%;
     background-color: white;
@@ -41,6 +51,7 @@ body{
     font-weight: 700;
     text-decoration: none;
     color: #D6A49A;
+    font-size: 1.2em;
 }
 
 .nav-bar .nav-links .link:hover{
@@ -50,9 +61,9 @@ body{
 .nav-bar .logo{
     position: relative;
     top: 0%;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
+    width: 22%;
+    margin-left: 39%;
+    margin-right: 39%;
 }
 
 .nav-bar .logo .logo-img{
@@ -64,7 +75,7 @@ body{
 .nav-bar .socials{
     position: fixed;
     right: 0%;
-    top: 2%;
+    top: 3%;
     width: 20%;
     height: 15%;
     display: grid;
@@ -85,6 +96,9 @@ body{
 .nav-bar .socials .social-img:hover{
     transform: scale(1.2);
 }
+
+
+/* --- LANDING SECTION --- */
 
 .landing-section{
     position: fixed;
@@ -173,9 +187,9 @@ body{
 
 .landing-section .intro{
     position: fixed;
-    top: 30%;
+    top: 23%;
     left: 3%;
-    width: 25%;
+    width: 28%;
     background-color: #FEF0E8;
     padding: 2% 2% 3% 2%;
     opacity: 90%;
@@ -242,6 +256,10 @@ body{
     font-size: 0.9em;
 }
 
+
+/* --- MID SECTION --- */
+
+
 .mid-section{
     position: absolute;
     margin: 100% 0% 0% 0%;
@@ -253,24 +271,40 @@ body{
     right: 0%;
 }
 
+
+/* --- ABOUT --- */
+
+
 .about{
     position: relative;
-    padding-top: 6%;
+    padding-top: 4%;
 }
 
 .about h2{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.2em;
+    font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
-    margin: 0% 7% 0% 7%;
+    margin: 2% 7% 0% 7%;
 }
 
 .about .welcoming{
     position: relative;
     padding: 0% 3% 5% 3%;
-    margin: 0% 7% 0% 7%;
+    margin: 0% 3% 0% 3%;
+}
+
+.about .welcoming .intro{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.about .welcoming .welcoming-img{
+    position: relative;
+    width: 80%;
+    margin: 2% 0% 2% 10%;
 }
 
 .about .welcoming h3{
@@ -284,7 +318,9 @@ body{
     position: relative;
     font-family: 'Ubuntu', sans-serif; 
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    line-height: 150%;
+    word-spacing: 100%;
 }
 
 .about .about-btns-container{
@@ -311,13 +347,13 @@ body{
 .about .about-btns-container .his-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .about .about-btns-container .his-btn .about-img{
     position: relative;
-    width: 20%;
-    margin: 1% 40% 1% 40%;
+    width: 26%;
+    margin: 1% 37% 1% 37%;
 }
 
 .about .about-btns-container .his-btn .text-link{
@@ -342,7 +378,7 @@ body{
 
 .about .about-info-container .his-info h4{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
 }
@@ -350,10 +386,21 @@ body{
 .about .about-info-container .his-info p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
+    font-size: 1.3em;
+    line-height: 150%;
+    word-spacing: 100%;
+}
+
+.about .about-info-container .his-info .his-img{
+    position: relative;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
 }
 
 .about .about-info-container .his-info .close{
     color: #D6A49A;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 
 .about .about-btns-container .exp-btn{
@@ -372,13 +419,13 @@ body{
 .about .about-btns-container .exp-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .about .about-btns-container .exp-btn .about-img{
     position: relative;
-    width: 20%;
-    margin: 1% 40% 1% 40%;
+    width: 26%;
+    margin: 1% 37% 1% 37%;
 }
 
 .about .about-btns-container .exp-btn .text-link{
@@ -397,7 +444,7 @@ body{
 
 .about .about-info-container .exp-info h4{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
 }
@@ -405,10 +452,21 @@ body{
 .about .about-info-container .exp-info p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
+    font-size: 1.3em;
+    line-height: 150%;
+    word-spacing: 100%;
+}
+
+.about .about-info-container .exp-info .exp-img{
+    position: relative;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
 }
 
 .about .about-info-container .exp-info .close{
     color: #D6A49A;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 
 .about .about-btns-container .sln-btn{
@@ -427,13 +485,13 @@ body{
 .about .about-btns-container .sln-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .about .about-btns-container .sln-btn .about-img{
     position: relative;
-    width: 20%;
-    margin: 1% 40% 1% 40%;
+    width: 26%;
+    margin: 1% 37% 1% 37%;
 }
 
 .about .about-btns-container .sln-btn .text-link{
@@ -452,7 +510,7 @@ body{
 
 .about .about-info-container .sln-info h4{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
 }
@@ -460,10 +518,26 @@ body{
 .about .about-info-container .sln-info p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
+    font-size: 1.3em;
+    line-height: 150%;
+    word-spacing: 100%;
+}
+
+.about .about-info-container .sln-info .sln-img{
+    position: relative;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+}
+
+.about .about-info-container .sln-info .homestead-link{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FEF0E8;    
 }
 
 .about .about-info-container .sln-info .close{
     color: #D6A49A;
+    font-size: 1.3em;
+    text-decoration: underline;
 }
 
 .about .about-info-container .info h4{
@@ -480,15 +554,18 @@ body{
     font-size: 1em;
 }
 
+
+/* --- TREATMENTS --- */
+
 .treatments{
     position: relative;
-    padding: 6% 7% 1% 7%;
+    padding: 4% 7% 1% 7%;
 }
 
 .treatments h2{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.2em;
+    font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
 }
@@ -500,15 +577,18 @@ body{
     font-size: 1.2em; 
 }
 
+
+/* --- MEMBERSHIP --- */
+
 .membership{
     position: relative;
-    padding: 6% 7% 1% 7%;
+    padding: 4% 7% 1% 7%;
 }
 
 .membership h2{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.2em;
+    font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
 }
@@ -520,35 +600,17 @@ body{
     font-size: 1.2em; 
 }
 
-.contact{
-    position: relative;
-    padding: 6% 7% 4% 7%;
-}
 
-.contact h2{
-    position: relative;
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.2em;
-    border-left: #D6A49A 5px solid;
-    padding-left: 2%;
-}
-
-.contact p{
-    position: relative;
-    font-family: 'Ubuntu', sans-serif; 
-    text-align: center;
-    font-size: 1.2em; 
-}
-
+/* --- GALLERY --- */
 .gallery{
     position: relative;
-    padding: 6% 7% 1% 7%;
+    padding: 4% 7% 1% 7%;
 }
 
 .gallery h2{
     position: relative;
     font-family: 'Great Vibes', cursive;
-    font-size: 2.2em;
+    font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
 }
@@ -568,6 +630,33 @@ body{
 .gallery .img-container .imgs:hover{
     transform: scale(1.1);
 }
+
+
+/* --- CONTACT --- */
+
+
+.contact{
+    position: relative;
+    padding: 4% 7% 4% 7%;
+}
+
+.contact h2{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8em;
+    border-left: #D6A49A 5px solid;
+    padding-left: 2%;
+}
+
+.contact p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif; 
+    text-align: center;
+    font-size: 1.2em; 
+}
+
+
+/* --- FOOTER --- */
 
 .footer{
     position: relative;
@@ -641,10 +730,12 @@ body{
     font-weight: 700;   
 }
 
-/* font-family: 'Great Vibes', cursive;
-font-family: 'Ubuntu', sans-serif; */
 
 
 /* MEDIA QUERIES */
-/* --- tablets & ipads --- */
+
+/*--- TABLETS AND IPAD VIEWS ---*/
+
+
+/*--- LAPTOPS AND DESKTOPS ---*/
 
