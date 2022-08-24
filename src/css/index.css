@@ -587,8 +587,45 @@ body{
     font-weight: 700;
 }
 
+.treatments .treatment-preview{
+    position: relative;
+    margin: 0% 0% 5% 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+}
+
+.treatments .treatment-preview .cards{
+    position: relative;
+    width: 100%;
+}
+
+.treatments .treatment-preview .cards .treatment-imgs{
+    position: relative;
+    width: 100%;
+}
+
+.treatments .treatment-preview .cards .desc{
+    position: relative;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif; 
+    background-color: #612C2A;
+    color: #FEF0E8;
+    text-transform: capitalize;
+    padding: 1%;
+    margin: 0%;
+}
+
+.treatments .treatment-preview .cards :hover{
+    transform: scale(1.2);
+    box-shadow: rgb(0, 0, 0) 3px 3px 5px 0px;
+    opacity: 1;
+    z-index: 5;
+}
+
 
 /* --- MEMBERSHIP --- */
+
 
 .membership{
     position: relative;
