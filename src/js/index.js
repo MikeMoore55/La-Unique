@@ -6,8 +6,8 @@ const hisCont = document.querySelector("#history-info");
 const expCont = document.querySelector("#experience-info");
 const slnCont = document.querySelector("#salon-info");
 
-hisCont.style.display="block";
-hisBtn.style.backgroundColor = "#8A4D47";
+hisCont.style.display="none";
+
 expCont.style.display="none";
 slnCont.style.display="none";
 
