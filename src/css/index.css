@@ -180,6 +180,8 @@ body{
     position: relative;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #FEF0E8;
     text-transform: capitalize;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -376,6 +378,14 @@ body{
     display: none;
 }
 
+.about .about-info-container .his-info .his-his{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 5%;
+}
+
 .about .about-info-container .his-info h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
@@ -389,18 +399,22 @@ body{
     font-size: 1.3em;
     line-height: 150%;
     word-spacing: 100%;
+    text-align: left;
+    margin-left: 5%;
 }
 
 .about .about-info-container .his-info .his-img{
     position: relative;
-    width: 50%;
-    margin: 1% 25% 1% 25%;
+    width: 100%;
+    margin: 2% 0% 1% 0%;
+    border-radius: 10%;
 }
 
 .about .about-info-container .his-info .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
+    text-align: center;
 }
 
 .about .about-btns-container .exp-btn{
@@ -442,6 +456,13 @@ body{
     display: none;
 }
 
+.about .about-info-container .exp-info .exp-exp{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
 .about .about-info-container .exp-info h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
@@ -459,8 +480,9 @@ body{
 
 .about .about-info-container .exp-info .exp-img{
     position: relative;
-    width: 50%;
-    margin: 1% 25% 1% 25%;
+    width: 80%;
+    margin: 1% 0% 1% 10%;
+    border-radius: 10%;
 }
 
 .about .about-info-container .exp-info .close{
@@ -508,6 +530,13 @@ body{
     display: none;
 }
 
+.about .about-info-container .sln-info .sln-sln{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
 .about .about-info-container .sln-info h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
@@ -525,8 +554,9 @@ body{
 
 .about .about-info-container .sln-info .sln-img{
     position: relative;
-    width: 50%;
-    margin: 1% 25% 1% 25%;
+    width: 80%;
+    border-radius: 10%;
+    margin: 1% 10% 1% 0%;
 }
 
 .about .about-info-container .sln-info .homestead-link{
