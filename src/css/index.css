@@ -35,7 +35,7 @@ body{
 
 .nav-bar .nav-links{
     position: absolute;
-    top: 3%;
+    top: 0%;
     left: 0%;
     width: 40%;
     display: flex;
@@ -47,7 +47,7 @@ body{
 
 .nav-bar .nav-links .link{
     position: relative;
-    margin: 5% 4% 0% 4%;
+    margin: 3% 4% 0% 4%;
     font-weight: 700;
     text-decoration: none;
     color: #D6A49A;
@@ -64,6 +64,7 @@ body{
     width: 22%;
     margin-left: 39%;
     margin-right: 39%;
+    cursor: pointer;
 }
 
 .nav-bar .logo .logo-img{
@@ -279,7 +280,7 @@ body{
 
 .about{
     position: relative;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 .about h2{
@@ -300,7 +301,7 @@ body{
 .about .welcoming .intro{
     position: relative;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
 }
 
 .about .welcoming .welcoming-img{
@@ -314,6 +315,7 @@ body{
     font-family: 'Ubuntu', sans-serif; 
     text-align: center;
     font-size: 1.7em;
+    margin-bottom: 4%;
 }
 
 .about .welcoming p{
@@ -337,6 +339,7 @@ body{
     position: relative;
     text-align: center;
     padding: 1%;
+    cursor: pointer;
 }
 
 .about .about-btns-container .his-btn:hover{
@@ -382,8 +385,8 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 75%;
-    margin-top: 5%;
+    grid-template-columns: 17% 83%;
+    margin-top: 0%;
 }
 
 .about .about-info-container .his-info h4{
@@ -391,6 +394,7 @@ body{
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
+    margin-bottom: 4%;
 }
 
 .about .about-info-container .his-info p{
@@ -405,9 +409,14 @@ body{
 
 .about .about-info-container .his-info .his-img{
     position: relative;
-    width: 100%;
-    margin: 2% 0% 1% 0%;
+    width: 90%;
+    margin: 0% 0% 0% 10%;
     border-radius: 10%;
+}
+
+.about .about-info-container .his-info .his-img:hover{
+    transform: scale(1.2);
+
 }
 
 .about .about-info-container .his-info .close{
@@ -415,12 +424,14 @@ body{
     font-size: 1.2em;
     text-decoration: underline;
     text-align: center;
+    cursor: pointer;
 }
 
 .about .about-btns-container .exp-btn{
     position: relative;
     text-align: center;
     padding: 1%;
+    cursor: pointer;
 }
 
 .about .about-btns-container .exp-btn:hover{
@@ -460,7 +471,7 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 83% 17%;
 }
 
 .about .about-info-container .exp-info h4{
@@ -468,6 +479,7 @@ body{
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
+    margin-bottom: 4%;
 }
 
 .about .about-info-container .exp-info p{
@@ -480,21 +492,28 @@ body{
 
 .about .about-info-container .exp-info .exp-img{
     position: relative;
-    width: 80%;
-    margin: 1% 0% 1% 10%;
+    width: 90%;
+    margin: 0% 0% 0% 10%;
     border-radius: 10%;
+}
+
+.about .about-info-container .exp-info .exp-img:hover{
+    transform: scale(1.2);
 }
 
 .about .about-info-container .exp-info .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
+    cursor: pointer;
+
 }
 
 .about .about-btns-container .sln-btn{
     position: relative;
     text-align: center;
     padding: 1%;
+    cursor: pointer;
 }
 
 .about .about-btns-container .sln-btn:hover{
@@ -534,7 +553,7 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
 }
 
 .about .about-info-container .sln-info h4{
@@ -542,6 +561,7 @@ body{
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
+    margin-bottom: 4%;
 }
 
 .about .about-info-container .sln-info p{
@@ -559,6 +579,11 @@ body{
     margin: 1% 10% 1% 0%;
 }
 
+.about .about-info-container .sln-info .sln-img:hover{
+    transform: scale(1.2);
+
+}
+
 .about .about-info-container .sln-info .homestead-link{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;    
@@ -568,6 +593,7 @@ body{
     color: #D6A49A;
     font-size: 1.3em;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .about .about-info-container .info h4{
@@ -598,6 +624,7 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
+    margin-bottom: 4%;
 }
 
 .treatments p{
@@ -646,13 +673,6 @@ body{
     margin: 0%;
 }
 
-.treatments .treatment-preview .cards :hover{
-    transform: scale(1.2);
-    box-shadow: rgb(0, 0, 0) 3px 3px 5px 0px;
-    opacity: 1;
-    z-index: 5;
-}
-
 
 /* --- MEMBERSHIP --- */
 
@@ -668,6 +688,7 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
+    margin-bottom: 4%;
 }
 
 .membership p{
@@ -690,6 +711,7 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
+    margin-bottom: 4%;
 }
 
 .gallery .img-container{
@@ -724,6 +746,7 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
+    margin-bottom: 4%;
 }
 
 .contact p{
@@ -771,6 +794,10 @@ body{
     margin: 1% 30% 1% 5%;
 }
 
+.contact .contact-info .social-info .contact-socials .social-img:hover{
+    transform: scale(1.2);
+}
+
 /* --- FOOTER --- */
 
 .footer{
@@ -786,6 +813,7 @@ body{
 .footer .footer-logo{
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 .footer .footer-logo .logo-img{
@@ -809,6 +837,10 @@ body{
     text-decoration: none;
 }
 
+.footer .footer-links a:hover{
+    transform: scale(1.2);
+}
+
 .footer .footer-socials{
     margin-top: 7%;
     position: relative;
@@ -826,6 +858,10 @@ body{
 .footer .footer-socials .social-img{
     position: relative;
     width: 100%;
+}
+
+.footer .footer-socials .social-img:hover{
+    transform: scale(1.2);
 }
 
 .footer .branding{
