@@ -253,7 +253,7 @@ body{
 .landing-section .down-arrow{
     position: fixed;
     bottom: 5%;
-    left: 40%;
+    left: 45%;
     width: 10%;
     animation-name: UpDown;
     animation-duration: 2s;
@@ -274,8 +274,8 @@ body{
 
 .landing-section .down-arrow .arrow{
     position: relative;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
+    margin-left: 0%;
 }
 
 .landing-section .branding{
