@@ -85,7 +85,7 @@ body{
 
 .nav-bar .nav-links .link{
     position: relative;
-    margin: 3% 4% 10% 4%;
+    margin: 10% 4% 10% 4%;
     font-weight: 700;
     text-decoration: none;
     color: #D6A49A;
@@ -622,7 +622,6 @@ body{
 
 .about .about-btns-container .sln-info-mobile .sln-img:hover{
     transform: scale(1.2);
-
 }
 
 .about .about-btns-container .sln-info-mobile .homestead-link{
@@ -667,6 +666,7 @@ body{
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
     margin-bottom: 4%;
+    margin-top: 10%;
 }
 
 .treatments p{
@@ -674,16 +674,18 @@ body{
     font-family: 'Ubuntu', sans-serif; 
     text-align: center;
     font-size: 1.2em; 
+    margin-top: 7%;
 }
 
 .treatments .pricelist-link{
     position: relative;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #8A4D47;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: 'Ubuntu', sans-serif; 
     font-weight: 700;
+    margin: 5% 3% 5% 3%;
 }
 
 .treatments .treatment-preview{
@@ -691,7 +693,7 @@ body{
     margin: 0% 0% 5% 0%;
     width: 100%;
     display: grid;
-    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    grid-template-columns: 50% 50%;
 }
 
 .treatments .treatment-preview .cards{
@@ -753,7 +755,8 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
 .gallery .img-container{
@@ -769,8 +772,9 @@ body{
 }
 
 .gallery .img-container .imgs:hover{
-    transform: scale(1.3);
+    transform: scale(1.5);
     z-index: 5;
+    margin: 10% 10% 10% 10%;
 }
 
 
@@ -802,7 +806,7 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
 }
 
 .contact .contact-info .social-info{
@@ -824,10 +828,11 @@ body{
 }
 
 .contact .contact-info .social-info .contact-socials{
-    width: 50%;
+    width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    margin-bottom: 10%;
 }
 
 .contact .contact-info .social-info .contact-socials .social-img{
@@ -846,7 +851,7 @@ body{
     position: relative;
     background-color: white;
     display: grid;
-    grid-template-columns: 60% 20% 20%;
+    grid-template-columns: 70% 30%;
     width: 100%;
     padding: 2% 1% 1% 1%;
     box-shadow: 6px 0px 4px 4px rgb(107, 105, 105);
@@ -868,7 +873,7 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: #D6A49A;
@@ -876,6 +881,7 @@ body{
 
 .footer .footer-links a{
     color: #D6A49A;
+    margin-bottom: 10%;
     text-decoration: none;
 }
 
@@ -888,7 +894,7 @@ body{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
 }
 
 .footer .footer-socials a{
@@ -909,6 +915,7 @@ body{
 .footer .branding{
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    font-size: 0.6em;
 }
 
 .footer .blank{

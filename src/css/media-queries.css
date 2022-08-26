@@ -25,6 +25,18 @@ body{
 
 @media(min-width: 1000px) {
 
+    .about .about-btns-container .his-info-mobile{
+        display: none;
+    }
+
+    .about .about-btns-container .exp-info-mobile{
+        display: none;
+    }
+
+    .about .about-btns-container .sln-info-mobile{
+        display: none;
+    }
+
     .menu-bar{
         display: none;
     }
@@ -381,6 +393,7 @@ body{
         position: relative;
         background-color: #8A4D47;
         margin: 0%;
+        display: block;
     }
 
     .about .about-info-container .his-info{
