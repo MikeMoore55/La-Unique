@@ -42,7 +42,7 @@ body{
 .menu-bar .salon-logo{
     position: relative;
     width: 100%;
-    margin: 2% 0% 0% 2%;
+    margin: 5% 0% 0% 5%;
 }
 
 .menu-bar .salon-logo .logo-img{
@@ -116,8 +116,8 @@ body{
 
 .nav-bar .socials a{
     position: relative;
-    width: 80%;
-    margin: 0% 10% 20% 10%;
+    width: 50%;
+    margin: 0% 25% 20% 25%;
 }
 
 .nav-bar .socials .social-img{
@@ -253,7 +253,7 @@ body{
 .landing-section .down-arrow{
     position: fixed;
     bottom: 5%;
-    left: 40%;
+    left: 50%;
     width: 10%;
     animation-name: UpDown;
     animation-duration: 2s;
@@ -285,8 +285,8 @@ body{
     text-align: center;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    padding: 2% 2% 0% 2%;
-    font-size: 0.8em;
+    padding: 0% 2% 0% 2%;
+    font-size: 0.5em;
 }
 
 
@@ -317,19 +317,17 @@ body{
     font-size: 2.8em;
     border-left: #D6A49A 5px solid;
     padding-left: 2%;
-    margin: 2% 7% 0% 7%;
+    margin: 2% 7% 5% 7%;
 }
 
 .about .welcoming{
     position: relative;
-    padding: 0% 3% 5% 3%;
-    margin: 0% 3% 0% 3%;
+    padding: 0% 5% 10% 5%;
+    margin: 0% 6% 0% 6%;
 }
 
 .about .welcoming .intro{
     position: relative;
-    display: grid;
-    grid-template-columns: 80% 20%;
 }
 
 .about .welcoming .welcoming-img{
@@ -360,13 +358,14 @@ body{
     margin: 0%;
     background-color: #D6A49A;
     display: grid;
-    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    grid-template-columns: 100%;
 }
 
 .about .about-btns-container .his-btn{
     position: relative;
     text-align: center;
-    padding: 1%;
+    padding: 10%;
+    background-color: #D6A49A;
     cursor: pointer;
 }
 
@@ -400,65 +399,71 @@ body{
     position: relative;
     background-color: #8A4D47;
     margin: 0%;
-}
-
-.about .about-info-container .his-info{
-    position: relative;
-    padding: 1% 7% 1% 7%;
-    text-align: center;
     display: none;
 }
 
-.about .about-info-container .his-info .his-his{
+.about .about-btns-container .his-info-mobile{
+    position: relative;
+    width: 100%;
+    padding: 1% 7% 1% 7%;
+    text-align: center;
+    display: none;
+    background-color: #8A4D47;
+}
+
+.about .about-btns-container .his-info-mobile .his-his{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 17% 83%;
+    grid-template-columns: 100%;
     margin-top: 0%;
 }
 
-.about .about-info-container .his-info h4{
+.about .about-btns-container .his-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
-.about .about-info-container .his-info p{
+.about .about-btns-container .his-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
     line-height: 150%;
     word-spacing: 100%;
-    text-align: left;
-    margin-left: 5%;
+    text-align: center;
+    margin-left: 0%;
 }
 
-.about .about-info-container .his-info .his-img{
+.about .about-btns-container .his-info-mobile .his-img{
     position: relative;
     width: 90%;
-    margin: 0% 0% 0% 10%;
+    margin: 0% 5% 0% 5%;
     border-radius: 10%;
 }
 
-.about .about-info-container .his-info .his-img:hover{
+.about .about-btns-container .his-info-mobile .his-img:hover{
     transform: scale(1.2);
 
 }
 
-.about .about-info-container .his-info .close{
+.about .about-btns-container .his-info-mobile .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
     text-align: center;
     cursor: pointer;
+    margin-top: 5%;
 }
+
 
 .about .about-btns-container .exp-btn{
     position: relative;
     text-align: center;
-    padding: 1%;
+    padding: 10%;
     cursor: pointer;
 }
 
@@ -488,29 +493,31 @@ body{
     font-size: 1.2em;
 }
 
-.about .about-info-container .exp-info{
+.about .about-btns-container .exp-info-mobile{
     position: relative;
     padding: 1% 7% 1% 7%;
     text-align: center;
     display: none;
+    background-color: #8A4D47;
 }
 
-.about .about-info-container .exp-info .exp-exp{
+.about .about-btns-container .exp-info-mobile .exp-exp{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 83% 17%;
+    grid-template-columns: 100%;
 }
 
-.about .about-info-container .exp-info h4{
+.about .about-btns-container .exp-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
-.about .about-info-container .exp-info p{
+.about .about-btns-container .exp-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
@@ -518,24 +525,25 @@ body{
     word-spacing: 100%;
 }
 
-.about .about-info-container .exp-info .exp-img{
+.about .about-btns-container .exp-info-mobile .exp-img{
     position: relative;
     width: 90%;
-    margin: 0% 0% 0% 10%;
+    margin: 0% 5% 0% 5%;
     border-radius: 10%;
 }
 
-.about .about-info-container .exp-info .exp-img:hover{
+.about .about-btns-container .exp-info-mobile .exp-img:hover{
     transform: scale(1.2);
 }
 
-.about .about-info-container .exp-info .close{
+.about .about-btns-container .exp-info-mobile .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
     cursor: pointer;
-
+    margin-top: 5%;
 }
+
 
 .about .about-btns-container .sln-btn{
     position: relative;
@@ -570,68 +578,74 @@ body{
     font-size: 1.2em;
 }
 
-.about .about-info-container .sln-info{
+.about .about-btns-container .sln-info-mobile{
     position: relative;
     padding: 1% 7% 1% 7%;
     text-align: center;
     display: none;
+    background-color: #8A4D47;
 }
 
-.about .about-info-container .sln-info .sln-sln{
+.about .about-btns-container .sln-info-mobile .sln-sln{
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 100%;
+    margin-top: 0%;
 }
 
-.about .about-info-container .sln-info h4{
+.about .about-btns-container .sln-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
     color: #D6A49A;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 
-.about .about-info-container .sln-info p{
+.about .about-btns-container .sln-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
     line-height: 150%;
     word-spacing: 100%;
+    text-align: center;
+    margin-left: 0%;
 }
 
-.about .about-info-container .sln-info .sln-img{
+.about .about-btns-container .sln-info-mobile .sln-img{
     position: relative;
-    width: 80%;
+    width: 90%;
     border-radius: 10%;
-    margin: 1% 10% 1% 0%;
+    margin: 1% 5% 1% 5%;
 }
 
-.about .about-info-container .sln-info .sln-img:hover{
+.about .about-btns-container .sln-info-mobile .sln-img:hover{
     transform: scale(1.2);
 
 }
 
-.about .about-info-container .sln-info .homestead-link{
+.about .about-btns-container .sln-info-mobile .homestead-link{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;    
 }
 
-.about .about-info-container .sln-info .close{
+.about .about-btns-container .sln-info-mobile .close{
     color: #D6A49A;
     font-size: 1.3em;
     text-decoration: underline;
     cursor: pointer;
+    margin-top: 5%;
 }
 
-.about .about-info-container .info h4{
+.about .about-btns-container .info h4{
     position: relative;
     font-family: 'Ubuntu', sans-serif; 
     color: #D6A49A;
     font-size: 1.3em;
 }
 
-.about .about-info-container .info p{
+.about .about-btns-container .info p{
     position: relative;
     font-family: 'Ubuntu', sans-serif; 
     color: #FEF0E8;
