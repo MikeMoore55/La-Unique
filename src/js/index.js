@@ -1,3 +1,17 @@
+/* nav for mobile view */
+
+const nav = document.querySelector("#nav-bar")
+
+function toggleNavOn(){
+  nav.style.display="block";
+}
+
+function toggleNavOff(){
+  nav.style.display="none";
+}
+
+document.querySelector("#main").addEventListener("click", toggleNavOff)
+
 const hisBtn = document.querySelector("#history-btn");
 const expBtn = document.querySelector("#experience-btn");
 const slnBtn = document.querySelector("#salon-btn");
