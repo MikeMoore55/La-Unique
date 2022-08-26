@@ -34,15 +34,15 @@ body{
 
 .menu-bar .menu{
     position: relative;
-    margin: 30% 10% 0% 0%;
-    width: 90%;
+    margin: 35% 10% 0% 0%;
+    width: 80%;
     z-index: 10;
 }
 
 .menu-bar .salon-logo{
     position: relative;
     width: 100%;
-    margin: 0%;
+    margin: 2% 0% 0% 2%;
 }
 
 .menu-bar .salon-logo .logo-img{
@@ -53,10 +53,11 @@ body{
 .nav-bar{
     display: none;
     position: fixed;
-    width: 40%;
+    width: 50%;
     height: 100%;
     top: 0%;
     right: 0%;
+    padding:  10% 0% 0% 0%;
     background-color: white;
     z-index: 15;
     box-shadow: 0px 0px 4px 4px rgb(107, 105, 105);
@@ -84,11 +85,11 @@ body{
 
 .nav-bar .nav-links .link{
     position: relative;
-    margin: 3% 4% 0% 4%;
+    margin: 3% 4% 10% 4%;
     font-weight: 700;
     text-decoration: none;
     color: #D6A49A;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 .nav-bar .nav-links .link:hover{
@@ -107,16 +108,16 @@ body{
 
 .nav-bar .socials{
     position: relative;
-    width: 70%;
+    width: 50%;
     display: grid;
-    margin: 7% 15% 0% 15%;
-    grid-template-columns: 50% 50%;
+    margin: 15% 25% 0% 25%;
+    grid-template-columns: 100%;
 }
 
 .nav-bar .socials a{
     position: relative;
-    width: 90%;
-    margin: 0% 5% 15% 5%;
+    width: 80%;
+    margin: 0% 10% 20% 10%;
 }
 
 .nav-bar .socials .social-img{
@@ -184,7 +185,7 @@ body{
     position: fixed;
     top: 35%;
     right: 0%;
-    padding: 3% 1% 3% 1%;
+    padding: 5% 3% 5% 3%;
     background-color: #D6A49A;
     z-index: 3;
     animation-name: BookBtn;
@@ -218,13 +219,14 @@ body{
     text-transform: capitalize;
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    font-size: 1.3em;
 }
 
 .landing-section .intro{
     position: fixed;
-    top: 15%;
-    left: 3%;
-    width: 40%;
+    top: 25%;
+    left: 5%;
+    width: 50%;
     background-color: #FEF0E8;
     padding: 2% 2% 3% 2%;
     opacity: 90%;
@@ -236,12 +238,12 @@ body{
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
     margin: 2% 2% 2% 2%;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 
 .landing-section .intro p{
-    font-size: 1em;
+    font-size: 1.3em;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     line-height: 155%;
@@ -250,9 +252,9 @@ body{
 
 .landing-section .down-arrow{
     position: fixed;
-    bottom: 2%;
-    left: 42%;
-    width: 6%;
+    bottom: 5%;
+    left: 40%;
+    width: 10%;
     animation-name: UpDown;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -284,7 +286,7 @@ body{
     color: white;
     font-family: 'Ubuntu', sans-serif;
     padding: 2% 2% 0% 2%;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 
