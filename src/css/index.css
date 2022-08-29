@@ -362,6 +362,7 @@ display: none;
 
 .about .about-btns-container-m{
     position: relative;
+    width: 100%;
     margin: 0%;
     background-color: #D6A49A;
     display: grid;
@@ -370,6 +371,7 @@ display: none;
 
 .about .about-btns-container-m .his-btn{
     position: relative;
+    width: 100%;
     text-align: center;
     padding: 10%;
     background-color: #D6A49A;
@@ -377,6 +379,13 @@ display: none;
 }
 
 .about .about-btns-container-m .his-btn:hover{
+    background-color: #8A4D47;
+    color: #FEF0E8;
+    transform: scale(1.1);
+    z-index: 7;
+}
+
+.about .about-btns-container-m .his-btn:active{
     background-color: #8A4D47;
     color: #FEF0E8;
     transform: scale(1.1);
@@ -418,6 +427,7 @@ display: none;
     display: grid;
     grid-template-columns: 100%;
     margin-top: 0%;
+    z-index: 7;
 }
 
 .about .about-btns-container-m .his-info-mobile h4{
@@ -466,6 +476,7 @@ display: none;
     text-align: center;
     padding: 10%;
     cursor: pointer;
+    width: 100%;
 }
 
 .about .about-btns-container-m .exp-btn:hover{
@@ -500,6 +511,7 @@ display: none;
     text-align: center;
     display: none;
     background-color: #8A4D47;
+    width: 100%;
 }
 
 .about .about-btns-container-m .exp-info-mobile .exp-exp{
@@ -551,6 +563,8 @@ display: none;
     text-align: center;
     padding: 1%;
     cursor: pointer;
+    width: 100%;
+
 }
 
 .about .about-btns-container-m .sln-btn:hover{
@@ -585,6 +599,8 @@ display: none;
     text-align: center;
     display: none;
     background-color: #8A4D47;
+    width: 100%;
+
 }
 
 .about .about-btns-container-m .sln-info-mobile .sln-sln{
