@@ -104,8 +104,9 @@
                         
                     </div>
                 </div>
-                <div class="about-btns-container">
-                    <div id="history-btn" class="his-btn" onclick="showHis()">
+
+                <div class="about-btns-container-m">
+                    <div id="history-btn" class="his-btn" onclick="showHisMobile()">
                         <h4>A Journey Through Time</h4>
                         <img class="about-img" src="./src/images/history-icon.png" alt="history icon">
                         <p class="text-link"> - The History - </p>
@@ -127,10 +128,10 @@
 
                             
                         </div>
-                        <p class="close" onclick="hideHis()">close</p>
+                        <p class="close" onclick="hideHisMobile()">close</p>
                     </div>
 
-                    <div id="experience-btn" class="exp-btn" onclick="showExp()">
+                    <div id="experience-btn" class="exp-btn" onclick="showExpMobile()">
                         <h4>A Feeling of Wonder</h4>
                         <img class="about-img" src="./src/images/experience-icon.png" alt="experience icon"> 
                         <p class="text-link"> - The Experience - </p>
@@ -146,10 +147,10 @@
                             <img class="exp-img" src="./src/images/vertical-massage.jpg">
                             
                         </div>
-                        <p class="close" onclick="hideExp()">close</p>
+                        <p class="close" onclick="hideExpMobile()">close</p>
                     </div>
 
-                    <div id="salon-btn" class="sln-btn" onclick="showSln()">
+                    <div id="salon-btn" class="sln-btn" onclick="showSlnMobile()">
                         <h4>The Perfect Place</h4>
                         <img class="about-img" src="./src/images/salon-icon.png" alt="salon icon">
                         <p class="text-link"> - The Salon - </p>
@@ -171,9 +172,30 @@
                             <img class="sln-img" src="./src/images/main-room-back-small.jpg"> 
 
                         </div>      
-                        <p class="close" onclick="hideSln()">close</p>
+                        <p class="close" onclick="hideSlnMobile()">close</p>
                     </div>
                 </div>
+
+                <div class="about-btns-container">
+                    <div id="history-btn" class="his-btn" onclick="showHis()">
+                        <h4>A Journey Through Time</h4>
+                        <img class="about-img" src="./src/images/history-icon.png" alt="history icon">
+                        <p class="text-link"> - The History - </p>
+                    </div>
+
+                    <div id="experience-btn" class="exp-btn" onclick="showExp()">
+                        <h4>A Feeling of Wonder</h4>
+                        <img class="about-img" src="./src/images/experience-icon.png" alt="experience icon"> 
+                        <p class="text-link"> - The Experience - </p>
+                    </div>
+
+                    <div id="salon-btn" class="sln-btn" onclick="showSln()">
+                        <h4>The Perfect Place</h4>
+                        <img class="about-img" src="./src/images/salon-icon.png" alt="salon icon">
+                        <p class="text-link"> - The Salon - </p>
+                    </div>
+                </div>
+
                 <div class="about-info-container">
                     <div id="history-info" class="his-info">
                         <h4>The History</h4>
@@ -225,6 +247,7 @@
                     </div>
                 </div>
             </div>
+            
             <div id="treatments" class="hidden">1</div>
             <div class="treatments">
                     <h2>Treatments</h2>

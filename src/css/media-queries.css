@@ -341,8 +341,13 @@ body{
         word-spacing: 100%;
     }
 
+    .about .about-btns-container-m{
+    display: none;
+    }
+
     .about .about-btns-container{
         position: relative;
+        display: block;
         margin: 0%;
         background-color: #D6A49A;
         display: grid;

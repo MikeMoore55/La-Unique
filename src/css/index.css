@@ -356,8 +356,11 @@ display: none;
     line-height: 150%;
     word-spacing: 100%;
 }
-
 .about .about-btns-container{
+    display: none;
+}
+
+.about .about-btns-container-m{
     position: relative;
     margin: 0%;
     background-color: #D6A49A;
@@ -365,7 +368,7 @@ display: none;
     grid-template-columns: 100%;
 }
 
-.about .about-btns-container .his-btn{
+.about .about-btns-container-m .his-btn{
     position: relative;
     text-align: center;
     padding: 10%;
@@ -373,40 +376,34 @@ display: none;
     cursor: pointer;
 }
 
-.about .about-btns-container .his-btn:hover{
+.about .about-btns-container-m .his-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
     transform: scale(1.1);
     z-index: 7;
 }
 
-.about .about-btns-container .his-btn h4{
+.about .about-btns-container-m .his-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
     font-size: 1.8em;
 }
 
-.about .about-btns-container .his-btn .about-img{
+.about .about-btns-container-m .his-btn .about-img{
     position: relative;
     width: 26%;
     margin: 1% 37% 1% 37%;
 }
 
-.about .about-btns-container .his-btn .text-link{
+.about .about-btns-container-m .his-btn .text-link{
     position: relative;
     color: #FEF0E8;
     font-family: 'Ubuntu', sans-serif; 
     font-size: 1.2em;
 }
 
-.about .about-info-container{
-    position: relative;
-    background-color: #8A4D47;
-    margin: 0%;
-    display: none;
-}
 
-.about .about-btns-container .his-info-mobile{
+.about .about-btns-container-m .his-info-mobile{
     position: relative;
     width: 100%;
     padding: 1% 7% 1% 7%;
@@ -415,7 +412,7 @@ display: none;
     background-color: #8A4D47;
 }
 
-.about .about-btns-container .his-info-mobile .his-his{
+.about .about-btns-container-m .his-info-mobile .his-his{
     position: relative;
     width: 100%;
     display: grid;
@@ -423,7 +420,7 @@ display: none;
     margin-top: 0%;
 }
 
-.about .about-btns-container .his-info-mobile h4{
+.about .about-btns-container-m .his-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
@@ -432,7 +429,7 @@ display: none;
     margin-top: 10%;
 }
 
-.about .about-btns-container .his-info-mobile p{
+.about .about-btns-container-m .his-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
@@ -442,19 +439,19 @@ display: none;
     margin-left: 0%;
 }
 
-.about .about-btns-container .his-info-mobile .his-img{
+.about .about-btns-container-m .his-info-mobile .his-img{
     position: relative;
     width: 90%;
     margin: 0% 5% 0% 5%;
     border-radius: 10%;
 }
 
-.about .about-btns-container .his-info-mobile .his-img:hover{
+.about .about-btns-container-m .his-info-mobile .his-img:hover{
     transform: scale(1.2);
 
 }
 
-.about .about-btns-container .his-info-mobile .close{
+.about .about-btns-container-m .his-info-mobile .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
@@ -464,40 +461,40 @@ display: none;
 }
 
 
-.about .about-btns-container .exp-btn{
+.about .about-btns-container-m .exp-btn{
     position: relative;
     text-align: center;
     padding: 10%;
     cursor: pointer;
 }
 
-.about .about-btns-container .exp-btn:hover{
+.about .about-btns-container-m .exp-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
     transform: scale(1.1);
     z-index: 7;
 }
 
-.about .about-btns-container .exp-btn h4{
+.about .about-btns-container-m .exp-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
     font-size: 1.8em;
 }
 
-.about .about-btns-container .exp-btn .about-img{
+.about .about-btns-container-m .exp-btn .about-img{
     position: relative;
     width: 26%;
     margin: 1% 37% 1% 37%;
 }
 
-.about .about-btns-container .exp-btn .text-link{
+.about .about-btns-container-m .exp-btn .text-link{
     position: relative;
     color: #FEF0E8;
     font-family: 'Ubuntu', sans-serif; 
     font-size: 1.2em;
 }
 
-.about .about-btns-container .exp-info-mobile{
+.about .about-btns-container-m .exp-info-mobile{
     position: relative;
     padding: 1% 7% 1% 7%;
     text-align: center;
@@ -505,14 +502,14 @@ display: none;
     background-color: #8A4D47;
 }
 
-.about .about-btns-container .exp-info-mobile .exp-exp{
+.about .about-btns-container-m .exp-info-mobile .exp-exp{
     position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
 }
 
-.about .about-btns-container .exp-info-mobile h4{
+.about .about-btns-container-m .exp-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
@@ -521,7 +518,7 @@ display: none;
     margin-top: 10%;
 }
 
-.about .about-btns-container .exp-info-mobile p{
+.about .about-btns-container-m .exp-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
@@ -529,18 +526,18 @@ display: none;
     word-spacing: 100%;
 }
 
-.about .about-btns-container .exp-info-mobile .exp-img{
+.about .about-btns-container-m .exp-info-mobile .exp-img{
     position: relative;
     width: 90%;
     margin: 0% 5% 0% 5%;
     border-radius: 10%;
 }
 
-.about .about-btns-container .exp-info-mobile .exp-img:hover{
+.about .about-btns-container-m .exp-info-mobile .exp-img:hover{
     transform: scale(1.2);
 }
 
-.about .about-btns-container .exp-info-mobile .close{
+.about .about-btns-container-m .exp-info-mobile .close{
     color: #D6A49A;
     font-size: 1.2em;
     text-decoration: underline;
@@ -549,40 +546,40 @@ display: none;
 }
 
 
-.about .about-btns-container .sln-btn{
+.about .about-btns-container-m .sln-btn{
     position: relative;
     text-align: center;
     padding: 1%;
     cursor: pointer;
 }
 
-.about .about-btns-container .sln-btn:hover{
+.about .about-btns-container-m .sln-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
     transform: scale(1.1);
     z-index: 7;
 }
 
-.about .about-btns-container .sln-btn h4{
+.about .about-btns-container-m .sln-btn h4{
     position: relative;
     font-family: 'Great Vibes', cursive;
     font-size: 1.8em;
 }
 
-.about .about-btns-container .sln-btn .about-img{
+.about .about-btns-container-m .sln-btn .about-img{
     position: relative;
     width: 26%;
     margin: 1% 37% 1% 37%;
 }
 
-.about .about-btns-container .sln-btn .text-link{
+.about .about-btns-container-m .sln-btn .text-link{
     position: relative;
     color: #FEF0E8;
     font-family: 'Ubuntu', sans-serif; 
     font-size: 1.2em;
 }
 
-.about .about-btns-container .sln-info-mobile{
+.about .about-btns-container-m .sln-info-mobile{
     position: relative;
     padding: 1% 7% 1% 7%;
     text-align: center;
@@ -590,7 +587,7 @@ display: none;
     background-color: #8A4D47;
 }
 
-.about .about-btns-container .sln-info-mobile .sln-sln{
+.about .about-btns-container-m .sln-info-mobile .sln-sln{
     position: relative;
     width: 100%;
     display: grid;
@@ -598,7 +595,7 @@ display: none;
     margin-top: 0%;
 }
 
-.about .about-btns-container .sln-info-mobile h4{
+.about .about-btns-container-m .sln-info-mobile h4{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     text-decoration: underline;
@@ -607,7 +604,7 @@ display: none;
     margin-top: 10%;
 }
 
-.about .about-btns-container .sln-info-mobile p{
+.about .about-btns-container-m .sln-info-mobile p{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;
     font-size: 1.3em;
@@ -617,23 +614,23 @@ display: none;
     margin-left: 0%;
 }
 
-.about .about-btns-container .sln-info-mobile .sln-img{
+.about .about-btns-container-m .sln-info-mobile .sln-img{
     position: relative;
     width: 90%;
     border-radius: 10%;
     margin: 1% 5% 1% 5%;
 }
 
-.about .about-btns-container .sln-info-mobile .sln-img:hover{
+.about .about-btns-container-m .sln-info-mobile .sln-img:hover{
     transform: scale(1.2);
 }
 
-.about .about-btns-container .sln-info-mobile .homestead-link{
+.about .about-btns-container-m .sln-info-mobile .homestead-link{
     font-family: 'Ubuntu', sans-serif;
     color: #FEF0E8;    
 }
 
-.about .about-btns-container .sln-info-mobile .close{
+.about .about-btns-container-m .sln-info-mobile .close{
     color: #D6A49A;
     font-size: 1.3em;
     text-decoration: underline;
@@ -641,14 +638,14 @@ display: none;
     margin-top: 5%;
 }
 
-.about .about-btns-container .info h4{
+.about .about-btns-container-m .info h4{
     position: relative;
     font-family: 'Ubuntu', sans-serif; 
     color: #D6A49A;
     font-size: 1.3em;
 }
 
-.about .about-btns-container .info p{
+.about .about-btns-container-m .info p{
     position: relative;
     font-family: 'Ubuntu', sans-serif; 
     color: #FEF0E8;

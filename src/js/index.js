@@ -16,9 +16,9 @@ const hisBtnMobile = document.querySelector("#history-btn");
 const expBtnMobile = document.querySelector("#experience-btn");
 const slnBtnMobile = document.querySelector("#salon-btn");
 
-const hisContMobile = document.querySelector("#history-info");
-const expContMobile = document.querySelector("#experience-info");
-const slnContMobile = document.querySelector("#salon-info");
+const hisContMobile = document.querySelector("#history-info-mobile");
+const expContMobile = document.querySelector("#experience-info-mobile");
+const slnContMobile = document.querySelector("#salon-info-mobile");
 
 //mobile
 
