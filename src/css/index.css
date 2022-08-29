@@ -373,7 +373,7 @@ display: none;
     position: relative;
     width: 100%;
     text-align: center;
-    padding: 10%;
+    padding: 2%;
     background-color: #D6A49A;
     cursor: pointer;
 }
@@ -381,14 +381,7 @@ display: none;
 .about .about-btns-container-m .his-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
-    transform: scale(1.1);
-    z-index: 7;
-}
-
-.about .about-btns-container-m .his-btn:active{
-    background-color: #8A4D47;
-    color: #FEF0E8;
-    transform: scale(1.1);
+    transform: scale(1);
     z-index: 7;
 }
 
@@ -474,7 +467,7 @@ display: none;
 .about .about-btns-container-m .exp-btn{
     position: relative;
     text-align: center;
-    padding: 10%;
+    padding: 2%;
     cursor: pointer;
     width: 100%;
 }
@@ -482,7 +475,7 @@ display: none;
 .about .about-btns-container-m .exp-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
-    transform: scale(1.1);
+    transform: scale(1);
     z-index: 7;
 }
 
@@ -561,16 +554,15 @@ display: none;
 .about .about-btns-container-m .sln-btn{
     position: relative;
     text-align: center;
-    padding: 1%;
+    padding: 2%;
     cursor: pointer;
     width: 100%;
-
 }
 
 .about .about-btns-container-m .sln-btn:hover{
     background-color: #8A4D47;
     color: #FEF0E8;
-    transform: scale(1.1);
+    transform: scale(1);
     z-index: 7;
 }
 

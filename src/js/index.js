@@ -22,7 +22,6 @@ const slnContMobile = document.querySelector("#salon-info-mobile");
 
 //mobile
 
-
 hisContMobile.style.display="none";
 expContMobile.style.display="none";
 slnContMobile.style.display="none";
@@ -31,7 +30,6 @@ function showHisMobile(){
   hisBtnMobile.style.backgroundColor = "#8A4D47";
   expBtnMobile.style.backgroundColor = "#D6A49A";
   slnBtnMobile.style.backgroundColor = "#D6A49A";
-
   hisContMobile.style.display="block";
   expContMobile.style.display="none";
   slnContMobile.style.display="none";
@@ -89,7 +87,6 @@ function showHis(){
     hisBtn.style.backgroundColor = "#8A4D47";
     expBtn.style.backgroundColor = "#D6A49A";
     slnBtn.style.backgroundColor = "#D6A49A";
-
     hisCont.style.display="block";
     expCont.style.display="none";
     slnCont.style.display="none";
