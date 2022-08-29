@@ -359,6 +359,7 @@ body{
         text-align: center;
         padding: 1%;
         cursor: pointer;
+        padding: 2% 2% 2% 2%;
     }
 
     .about .about-btns-container .his-btn:hover{
@@ -452,6 +453,8 @@ body{
         text-align: center;
         padding: 1%;
         cursor: pointer;
+        padding: 2% 2% 2% 2%;
+
     }
 
     .about .about-btns-container .exp-btn:hover{
@@ -534,6 +537,8 @@ body{
         text-align: center;
         padding: 1%;
         cursor: pointer;
+        padding: 2% 2% 2% 2%;
+
     }
 
     .about .about-btns-container .sln-btn:hover{
