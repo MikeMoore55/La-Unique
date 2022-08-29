@@ -25,21 +25,14 @@ body{
 
 @media(min-width: 1000px) {
 
-    .about .about-btns-container .his-info-mobile{
-        display: none;
-    }
-
-    .about .about-btns-container .exp-info-mobile{
-        display: none;
-    }
-
-    .about .about-btns-container .sln-info-mobile{
-        display: none;
-    }
-
     .menu-bar{
         display: none;
     }
+
+    .nav-bar-mobile{
+        display: none;
+    }
+
     
     /* --- NAVBAR --- */
     .nav-bar{
@@ -68,7 +61,7 @@ body{
 
     .nav-bar .nav-links .link{
         position: relative;
-        margin: 3% 4% 0% 4%;
+        margin: 1% 4% 0% 4%;
         font-weight: 700;
         text-decoration: none;
         color: #D6A49A;
@@ -322,7 +315,7 @@ body{
     .about .welcoming .intro{
         position: relative;
         display: grid;
-        grid-template-columns: 80% 20%;
+        grid-template-columns: 20% 80%;
     }
 
     .about .welcoming .welcoming-img{

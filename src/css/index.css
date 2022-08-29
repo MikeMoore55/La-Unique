@@ -18,6 +18,10 @@ body{
     color: transparent;
 }
 
+.nav-bar{
+display: none;
+}
+
 /* --- NAVBAR --- */
 .menu-bar{
     position: fixed;
@@ -50,7 +54,7 @@ body{
     width: 100%;
 }
 
-.nav-bar{
+.nav-bar-mobile{
     display: none;
     position: fixed;
     width: 50%;
@@ -63,15 +67,15 @@ body{
     box-shadow: 0px 0px 4px 4px rgb(107, 105, 105);
 }
 
-.nav-bar .logo{
+.nav-bar-mobile .logo{
    display: none;
 }
 
-.nav-bar .logo .logo-img{
+.nav-bar-mobile .logo .logo-img{
     display: none;
 }
 
-.nav-bar .nav-links{
+.nav-bar-mobile .nav-links{
     margin-top: 10%;
     position: relative;
     top: 0%;
@@ -83,7 +87,7 @@ body{
     text-align: center;
 }
 
-.nav-bar .nav-links .link{
+.nav-bar-mobile .nav-links .link{
     position: relative;
     margin: 10% 4% 10% 4%;
     font-weight: 700;
@@ -92,11 +96,11 @@ body{
     font-size: 1.4em;
 }
 
-.nav-bar .nav-links .link:hover{
+.nav-bar-mobile .nav-links .link:hover{
     transform: scale(1.2);
 }
 
-.nav-bar .social-heading{
+.nav-bar-mobile .social-heading{
     text-align: center;
     color: #D6A49A;
     font-family: 'Ubuntu', sans-serif; 
@@ -106,7 +110,7 @@ body{
     margin-top: 10%;
 }
 
-.nav-bar .socials{
+.nav-bar-mobile .socials{
     position: relative;
     width: 50%;
     display: grid;
@@ -114,18 +118,18 @@ body{
     grid-template-columns: 100%;
 }
 
-.nav-bar .socials a{
+.nav-bar-mobile .socials a{
     position: relative;
     width: 50%;
     margin: 0% 25% 20% 25%;
 }
 
-.nav-bar .socials .social-img{
+.nav-bar-mobile .socials .social-img{
     position: relative;
     width: 100%;
 }
 
-.nav-bar .socials .social-img:hover{
+.nav-bar-mobile .socials .social-img:hover{
     transform: scale(1.2);
 }
 
