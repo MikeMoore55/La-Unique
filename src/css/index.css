@@ -275,7 +275,7 @@ display: none;
 .landing-section .down-arrow{
     position: fixed;
     bottom: 5%;
-    left: 50%;
+    left: 45%;
     width: 10%;
     animation-name: UpDown;
     animation-duration: 2s;

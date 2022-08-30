@@ -21,6 +21,801 @@ body{
 
 @media(min-width: 500px) {
     
+    .hidden{
+        color: transparent;
+    }
+    
+    .nav-bar{
+    display: none;
+    }
+    
+    /* --- NAVBAR --- */
+    .menu-bar{
+        width: 100%;
+        height: 10%;
+    }
+    
+    .menu-bar .menu{
+        position: relative;
+        margin: 35% 10% 0% 0%;
+        width: 70%;
+        z-index: 10;
+    }
+    
+    .menu-bar .salon-logo .logo-img{
+        width: 90%;
+    }
+    
+    .nav-bar-mobile{
+        width: 40%; 
+    }
+    
+    .nav-bar-mobile .logo{
+       display: none;
+    }
+    
+    .nav-bar-mobile .logo .logo-img{
+        display: none;
+    }
+    
+    .nav-bar-mobile .nav-links .link{
+        font-size: 2.5em;
+    }
+    
+    .nav-bar-mobile .nav-links .link:hover{
+        transform: scale(1.2);
+    }
+    
+    .nav-bar-mobile .socials{
+        width: 40%;
+        margin: 15% 30% 0% 30%;
+    }
+
+    .nav-bar-mobile .socials .social-img:hover{
+        transform: scale(1.2);
+    }
+    
+    
+    /* --- LANDING SECTION --- */
+    
+
+
+    
+    .landing-section .img-container{
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        top: 0%;
+        left: 0%;
+        animation-name: FadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+        animation-direction: alternate;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+    
+    
+    @keyframes FadeInOut {
+        0%{
+            background-image: url("../images/entrance-small.jpg");
+        }
+    
+        33.333%{
+            background-image: url("../images/main-room-front-small.jpg");
+        }
+    
+        66.666%{
+            background-image: url("../images/main-room-back-small.jpg");
+        }
+    
+        100%{
+            background-image: url("../images/salon-corridor-small.jpg");
+        }
+    }
+    
+    .landing-section .side-book-btn{
+        position: fixed;
+        top: 35%;
+        right: 0%;
+        padding: 3% 3% 3% 3%;
+        background-color: #D6A49A;
+        z-index: 3;
+        animation-name: BookBtn;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+    .landing-section .side-book-btn:active{
+        transform: scale(0.9);
+        background-color: #FEF0E8;
+    }
+    
+    @keyframes BookBtn {
+        from{
+            transform: scale(0.9);
+        }
+    
+        to{
+            transform: scale(1.1);
+        }
+    }
+    
+    .landing-section .side-book-btn .book-link{
+        font-size: 1.9em;
+    }
+    
+    .landing-section .intro{
+        top: 27%;
+        left: 5%;
+        width: 56%;
+        padding: 2% 4% 3% 4%;
+    }
+    
+    .landing-section .intro h1{
+        font-size: 2.7em;
+    }
+    
+    .landing-section .intro p{
+        font-size: 2em;
+    }
+    
+    .landing-section .down-arrow{
+        position: fixed;
+        bottom: 5%;
+        left: 46.5%;
+        width: 7%;
+        animation-name: UpDown;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes UpDown {
+        from{
+            transform: translateY(0);
+        }
+    
+        to{
+            transform: translateY(-30%);
+        }
+    }
+    
+    
+    .landing-section .branding{
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        text-align: center;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0% 2% 0% 2%;
+        font-size: 1em;
+    }
+    
+    
+    /* --- MID SECTION --- */
+    
+    
+    .mid-section{
+        margin: 150% 0% 0% 0%;
+        padding: 5% 0% 0% 0%;
+    }
+    
+    
+    /* --- ABOUT --- */
+    
+    
+    .about{
+        position: relative;
+        padding-top: 6%;
+    }
+    
+    .about h2{
+        font-size: 4.4em; 
+    }
+    
+    .about .welcoming{
+        padding: 0% 7% 10% 7%;
+    }
+    
+    .about .welcoming .welcoming-img{
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+    
+    .about .welcoming h3{
+        font-size: 2.7em;
+        margin-bottom: 4%;
+    }
+    
+    .about .welcoming p{
+        font-size: 2em;
+        line-height: 150%;
+        word-spacing: 100%;
+    }
+    .about .about-btns-container{
+        display: none;
+    }
+    
+    .about .about-btns-container-m{
+        position: relative;
+        width: 100%;
+        margin: 0%;
+        background-color: #D6A49A;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .about .about-btns-container-m .his-btn{
+        padding: 5%;
+    }
+    
+    .about .about-btns-container-m .his-btn:hover{
+        background-color: #8A4D47;
+        color: #FEF0E8;
+        transform: scale(1);
+        z-index: 7;
+    }
+    
+    .about .about-btns-container-m .his-btn h4{
+        font-size: 3em;
+    }
+    
+    .about .about-btns-container-m .his-btn .about-img{
+        width: 26%;
+        margin: 1% 37% 1% 37%;
+    }
+    
+    .about .about-btns-container-m .his-btn .text-link{
+        font-size: 2em;
+    }
+    
+    
+    .about .about-btns-container-m .his-info-mobile{
+        position: relative;
+        width: 100%;
+        padding: 1% 7% 1% 7%;
+        text-align: center;
+        display: none;
+        background-color: #8A4D47;
+    }
+    
+    .about .about-btns-container-m .his-info-mobile .his-his{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 0%;
+        z-index: 7;
+    }
+    
+    .about .about-btns-container-m .his-info-mobile h4{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.5em;
+        text-decoration: underline;
+        color: #D6A49A;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+    
+    .about .about-btns-container-m .his-info-mobile p{
+        font-family: 'Ubuntu', sans-serif;
+        color: #FEF0E8;
+        font-size: 2em;
+        line-height: 150%;
+        word-spacing: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .about .about-btns-container-m .his-info-mobile .his-img{
+        position: relative;
+        width: 50%;
+        margin: 0% 25% 0% 25%;
+        border-radius: 10%;
+    }
+    
+    .about .about-btns-container-m .his-info-mobile .his-img:hover{
+        transform: scale(1.2);
+    
+    }
+    
+    .about .about-btns-container-m .his-info-mobile .close{
+        color: #D6A49A;
+        font-size: 2em;
+        text-decoration: underline;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 5%;
+    }
+    
+    
+    .about .about-btns-container-m .exp-btn{
+        position: relative;
+        text-align: center;
+        padding: 2%;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .about .about-btns-container-m .exp-btn:hover{
+        background-color: #8A4D47;
+        color: #FEF0E8;
+        transform: scale(1);
+        z-index: 7;
+    }
+    
+    .about .about-btns-container-m .exp-btn h4{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 3em;
+    }
+    
+    .about .about-btns-container-m .exp-btn .about-img{
+        position: relative;
+        width: 26%;
+        margin: 1% 37% 1% 37%;
+    }
+    
+    .about .about-btns-container-m .exp-btn .text-link{
+        position: relative;
+        color: #FEF0E8;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 2em;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile{
+        position: relative;
+        padding: 1% 7% 1% 7%;
+        text-align: center;
+        display: none;
+        background-color: #8A4D47;
+        width: 100%;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile .exp-exp{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile h4{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3em;
+        text-decoration: underline;
+        color: #D6A49A;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile p{
+        font-family: 'Ubuntu', sans-serif;
+        color: #FEF0E8;
+        font-size: 2em;
+        line-height: 150%;
+        word-spacing: 100%;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile .exp-img{
+        position: relative;
+        width: 50%;
+        margin: 0% 25% 0% 25%;
+        border-radius: 10%;
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile .exp-img:hover{
+        transform: scale(1.2);
+    }
+    
+    .about .about-btns-container-m .exp-info-mobile .close{
+        color: #D6A49A;
+        font-size: 2em;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: 5%;
+    }
+    
+    
+    .about .about-btns-container-m .sln-btn{
+        position: relative;
+        text-align: center;
+        padding: 2%;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .about .about-btns-container-m .sln-btn:hover{
+        background-color: #8A4D47;
+        color: #FEF0E8;
+        transform: scale(1);
+        z-index: 7;
+    }
+    
+    .about .about-btns-container-m .sln-btn h4{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 3em;
+    }
+    
+    .about .about-btns-container-m .sln-btn .about-img{
+        position: relative;
+        width: 26%;
+        margin: 1% 37% 1% 37%;
+    }
+    
+    .about .about-btns-container-m .sln-btn .text-link{
+        position: relative;
+        color: #FEF0E8;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 2em;
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile{
+        position: relative;
+        padding: 1% 7% 1% 7%;
+        text-align: center;
+        display: none;
+        background-color: #8A4D47;
+        width: 100%;
+    
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile .sln-sln{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 0%;
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile h4{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3em;
+        text-decoration: underline;
+        color: #D6A49A;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile p{
+        font-family: 'Ubuntu', sans-serif;
+        color: #FEF0E8;
+        font-size: 2em;
+        line-height: 150%;
+        word-spacing: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile .sln-img{
+        position: relative;
+        width: 50%;
+        border-radius: 10%;
+        margin: 1% 25% 1% 25%;
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile .sln-img:hover{
+        transform: scale(1.2);
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile .homestead-link{
+        font-family: 'Ubuntu', sans-serif;
+        color: #FEF0E8;    
+    }
+    
+    .about .about-btns-container-m .sln-info-mobile .close{
+        color: #D6A49A;
+        font-size: 2em;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: 5%;
+    }
+    
+    .about .about-btns-container-m .info h4{
+        position: relative;
+        font-family: 'Ubuntu', sans-serif; 
+        color: #D6A49A;
+        font-size: 2em;
+    }
+    
+    .about .about-btns-container-m .info p{
+        position: relative;
+        font-family: 'Ubuntu', sans-serif; 
+        color: #FEF0E8;
+        font-size: 2em;
+    }
+    
+    
+    /* --- TREATMENTS --- */
+    
+    .treatments{
+        position: relative;
+        padding: 4% 7% 1% 7%;
+    }
+    
+    .treatments h2{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 4em;
+        border-left: #D6A49A 5px solid;
+        padding-left: 2%;
+        margin-bottom: 4%;
+        margin-top: 10%;
+    }
+    
+    .treatments p{
+        position: relative;
+        font-family: 'Ubuntu', sans-serif; 
+        text-align: center;
+        font-size: 2em; 
+        margin-top: 7%;
+    }
+    
+    .treatments .pricelist-link{
+        position: relative;
+        text-align: center;
+        font-size: 1.5em;
+        color: #8A4D47;
+        text-decoration: underline;
+        font-family: 'Ubuntu', sans-serif; 
+        font-weight: 700;
+        margin: 5% 3% 5% 3%;
+    }
+    
+    .treatments .treatment-preview{
+        position: relative;
+        margin: 0% 0% 5% 0%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .treatments .treatment-preview .cards{
+        position: relative;
+        width: 100%;
+    }
+    
+    .treatments .treatment-preview .cards .treatment-imgs{
+        position: relative;
+        width: 100%;
+    }
+    
+    .treatments .treatment-preview .cards .desc{
+        position: relative;
+        width: 100%;
+        font-family: 'Ubuntu', sans-serif; 
+        background-color: #612C2A;
+        color: #FEF0E8;
+        text-transform: capitalize;
+        padding: 1%;
+        margin: 0%;
+    }
+    
+    
+    /* --- MEMBERSHIP --- */
+    
+    
+    .membership{
+        position: relative;
+        padding: 4% 7% 1% 7%;
+    }
+    
+    .membership h2{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 4em;
+        border-left: #D6A49A 5px solid;
+        padding-left: 2%;
+        margin-bottom: 4%;
+    }
+    
+    .membership p{
+        position: relative;
+        font-family: 'Ubuntu', sans-serif; 
+        text-align: center;
+        font-size: 2em; 
+    }
+    
+    
+    /* --- GALLERY --- */
+    .gallery{
+        position: relative;
+        padding: 4% 7% 1% 7%;
+    }
+    
+    .gallery h2{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 4em;
+        border-left: #D6A49A 5px solid;
+        padding-left: 2%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    
+    .gallery .img-container{
+        position: relative;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    }
+    
+    .gallery .img-container .imgs{
+        position: relative;
+        width: 100%;
+    }
+    
+    .gallery .img-container .imgs:hover{
+        transform: scale(1.5);
+        z-index: 5;
+        margin: 10% 10% 10% 10%;
+    }
+    
+    
+    /* --- CONTACT --- */
+    
+    
+    .contact{
+        position: relative;
+        padding: 4% 7% 4% 7%;
+    }
+    
+    .contact h2{
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 4em;
+        border-left: #D6A49A 5px solid;
+        padding-left: 2%;
+        margin-bottom: 4%;
+    }
+    
+    .contact p{
+        position: relative;
+        font-family: 'Ubuntu', sans-serif; 
+        text-align: center;
+        font-size: 2em; 
+    }
+    
+    .contact .contact-info{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .contact .contact-info .social-info{
+        position: relative;
+    }
+    
+    .contact .contact-info h3{
+        font-family: 'Ubuntu', sans-serif; 
+        text-decoration: underline;
+        color: #8A4D47;
+        font-size: 2.5em;
+    }
+    
+    .contact .contact-info .social-info a{
+        font-family: 'Ubuntu', sans-serif; 
+        color: black;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    
+    .contact .contact-info .social-info .contact-socials{
+        width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    
+    .contact .contact-info .social-info .contact-socials .social-img{
+        position: relative;
+        width: 40%;
+        margin: 1% 50% 1% 5%;
+    }
+    
+    .contact .contact-info .social-info .contact-socials .social-img:hover{
+        transform: scale(1.2);
+    }
+    
+    /* --- FOOTER --- */
+    
+    .footer{
+        position: relative;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        width: 100%;
+        padding: 2% 1% 1% 1%;
+        box-shadow: 6px 0px 4px 4px rgb(107, 105, 105);
+    }
+    
+    .footer .footer-logo{
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .footer .footer-logo .logo-img{
+        position: relative;
+        width: 40%;
+        margin: 0% 30% 0% 30%;
+    }
+    
+    .footer .footer-links{
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33.3333% 33.3333% 33.3333%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #D6A49A;
+    }
+    
+    .footer .footer-links a{
+        color: #D6A49A;
+        margin-bottom: 10%;
+        text-decoration: none;
+    }
+    
+    .footer .footer-links a:hover{
+        transform: scale(1.2);
+    }
+    
+    .footer .footer-socials{
+        margin-top: 7%;
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .footer .footer-socials a{
+        position: relative;
+        width: 50%;
+        margin: 0% 25% 10% 25%;
+    }
+    
+    .footer .footer-socials .social-img{
+        position: relative;
+        width: 100%;
+    }
+    
+    .footer .footer-socials .social-img:hover{
+        transform: scale(1.2);
+    }
+    
+    .footer .branding{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .footer .blank{
+        color: transparent;
+    }
+    
+    .footer .creator{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        margin-top: 7%;
+        color: #8A4D47;
+        font-weight: 700; 
+        font-size: 1em;  
+    }
 }
 
 @media(min-width: 1000px) {
