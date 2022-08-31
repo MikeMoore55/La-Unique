@@ -29,7 +29,7 @@ onReady(function() {
 });
 
 
-/* to make a different nav appear for mobile */
+/* to make a different navigation appear for mobile */
 
 const nav = document.querySelector("#nav-bar-mobile")
 
