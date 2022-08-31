@@ -659,7 +659,6 @@ body{
     .gallery .img-container .imgs:hover{
         transform: scale(1.5);
         z-index: 5;
-        margin: 10% 10% 10% 10%;
     }
     
     
@@ -818,6 +817,9 @@ body{
     }
 }
 
+
+
+
 @media(min-width: 1000px) {
 
     .menu-bar{
@@ -856,7 +858,7 @@ body{
 
     .nav-bar .nav-links .link{
         position: relative;
-        margin: 1% 4% 0% 4%;
+        margin: 4% 4% 0% 4%;
         font-weight: 700;
         text-decoration: none;
         color: #D6A49A;
@@ -961,14 +963,16 @@ body{
         position: fixed;
         top: 35%;
         right: 0%;
-        padding: 3% 1% 3% 1%;
+        padding: 1% 1% 1% 1%;
         background-color: #D6A49A;
         z-index: 3;
+        font-size: 0.8em;
         animation-name: BookBtn;
         animation-duration: 4s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+        cursor: pointer;
     }
 
     .landing-section .side-book-btn:active{
@@ -1013,6 +1017,7 @@ body{
         text-align: left;
         font-family: 'Ubuntu', sans-serif;
         margin: 2%;
+        font-size: 2em;
     }
 
     .landing-section .intro .name{
@@ -1023,7 +1028,7 @@ body{
     }
 
     .landing-section .intro p{
-        font-size: 1.2em;
+        font-size: 1.3em;
         position: relative;
         font-family: 'Ubuntu', sans-serif;
         line-height: 155%;
@@ -1075,7 +1080,7 @@ body{
     .mid-section{
         position: absolute;
         margin: 100% 0% 0% 0%;
-        padding: 3% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
         z-index: 7;
         background-color: #FEF0E8;
         top: 0%;
@@ -1435,7 +1440,7 @@ body{
 
     .treatments{
         position: relative;
-        padding: 4% 7% 1% 7%;
+        padding: 2% 7% 1% 7%;
     }
 
     .treatments h2{
@@ -1499,7 +1504,7 @@ body{
 
     .membership{
         position: relative;
-        padding: 4% 7% 1% 7%;
+        padding: 2% 7% 1% 7%;
     }
 
     .membership h2{
@@ -1522,7 +1527,7 @@ body{
     /* --- GALLERY --- */
     .gallery{
         position: relative;
-        padding: 4% 7% 1% 7%;
+        padding: 2% 7% 1% 7%;
     }
 
     .gallery h2{
@@ -1557,7 +1562,7 @@ body{
 
     .contact{
         position: relative;
-        padding: 4% 7% 4% 7%;
+        padding: 2% 7% 4% 7%;
     }
 
     .contact h2{
@@ -1698,6 +1703,7 @@ body{
         text-align: center;
         margin-top: 7%;
         color: #8A4D47;
-        font-weight: 700;   
+        font-weight: 700;
+           
     }
 }

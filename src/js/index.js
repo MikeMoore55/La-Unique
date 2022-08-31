@@ -1,22 +1,35 @@
-/* nav for mobile view */
+/* loading screen until all dom content is loaded */
+
 function onReady(callback) {
-  var intervalId = window.setInterval(function() {
+
+  const intervalId = window.setInterval(function() {
+
     if (document.getElementsByTagName('body')[0] !== undefined) {
+
       window.clearInterval(intervalId);
       callback.call(this);
+
     }
-  }, 1000);
+  }, 
+  1000);
+
 }
 
 function setVisible(selector, visible) {
+
   document.querySelector(selector).style.display = visible ? 'block' : 'none';
+
 }
 
 onReady(function() {
+
   setVisible('.page', true);
   setVisible('#loading', false);
+
 });
 
+
+/* to make a different nav appear for mobile */
 
 const nav = document.querySelector("#nav-bar-mobile")
 
@@ -28,6 +41,9 @@ function toggleNavOff(){
   nav.style.display="none";
 }
 
+
+/* about functionality for mobile to appear directly under each button */
+
 document.querySelector("#main").addEventListener("click", toggleNavOff)
 
 const hisBtnMobile = document.querySelector("#history-btn");
@@ -37,8 +53,6 @@ const slnBtnMobile = document.querySelector("#salon-btn");
 const hisContMobile = document.querySelector("#history-info-mobile");
 const expContMobile = document.querySelector("#experience-info-mobile");
 const slnContMobile = document.querySelector("#salon-info-mobile");
-
-//mobile
 
 hisContMobile.style.display="none";
 expContMobile.style.display="none";
@@ -87,6 +101,7 @@ function hideSlnMobile(){
 }
 
 
+/* about functionality for large screens to appear directly under the entire btn container */
 
 const hisBtn = document.querySelector("#history-btn");
 const expBtn = document.querySelector("#experience-btn");
@@ -95,7 +110,6 @@ const slnBtn = document.querySelector("#salon-btn");
 const hisCont = document.querySelector("#history-info");
 const expCont = document.querySelector("#experience-info");
 const slnCont = document.querySelector("#salon-info");
-
 
 hisCont.style.display="none";
 expCont.style.display="none";
@@ -143,21 +157,9 @@ function hideSln(){
     slnBtn.style.backgroundColor = "#D6A49A";
 }
 
-//Get the button
-/* var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+/* When the user clicks on the button, scroll to the top of the document */
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-} */
-
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;

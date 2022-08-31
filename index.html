@@ -5,30 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La-Unique</title>
+    <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="icon" href="./src/images/LaUnique-icon.png">
+    <!-- css stylesheets -->
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/media-queries.css">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <!-- <script src="./src/js/index.js" defer></script> -->
+    <!-- js link -->
+    <script src="./src/js/index.js" defer></script>
 </head>
+
 <body>
+    <!-- section for loading icon/gif, while dom content loads -->
     <div id="loading"></div>
+
+    <!-- entire page of things needed to load -->
     <div class="page">
+
+        <!-- menu for mobile to make nav pop out and have icon display -->
         <div class="menu-bar"> 
+
             <div class="salon-logo">
                 <img class="logo-img" src="./src/images/LaUnique-icon.png" alt=" La Unique logo" onclick="topFunction()">
             </div>
+            <!-- hidden item to use grid for better layout -->
             <div class="hidden">
                 1
             </div>
+            <!-- makes side nav pop out -->
             <img class="menu" src="./src/images/menu.png" alt="menu icon" onclick="toggleNavOn()">
+
         </div>
 
+
+        <!-- nav for mobile -->
         <nav id="nav-bar-mobile" class="nav-bar-mobile">
+
             <div class="logo">
                 <img class="logo-img" src="./src/images/LaUnique-icon.png" alt=" La Unique logo" onclick="topFunction()">
             </div>
@@ -44,9 +61,14 @@
                 <a href="https://wa.me/0827889813" target="_blank"><img class="social-img" src="./src/images/whatsapp-icon.png" alt="social media icon for whatsapp "></a>
                 <a href = "mailto:launique.salon@gmail.com"><img class="social-img" src="./src/images/email-icon.png" alt="social media icon for email"></a>
             </div>
+
         </nav>
 
+
+        <!-- nav for large screens -->
         <nav id="nav-bar" class="nav-bar">
+
+            <!-- when logo clicked, will take to top of page -->
             <div class="logo">
                 <img class="logo-img" src="./src/images/LaUnique-icon.png" alt=" La Unique logo" onclick="topFunction()">
             </div>
@@ -62,13 +84,20 @@
                 <a href="https://wa.me/0827889813" target="_blank"><img class="social-img" src="./src/images/whatsapp-icon.png" alt="social media icon for whatsapp "></a>
                 <a href = "mailto:launique.salon@gmail.com"><img class="social-img" src="./src/images/email-icon.png" alt="social media icon for email"></a>
             </div>
+
         </nav>
 
+        <!-- main content -->
         <main id="main">
+
+            <!-- landing page -->
             <div class="landing-section">
+
+                <!-- has custom image slider -->
                 <div id="home" class="img-container">
                     1
                 </div>
+
                 <div class="intro">
                     <h1>Be You.</h1>
                     <h1>Be Unique.</h1>
@@ -76,25 +105,38 @@
                     <p>“Treat yourself like the most awesome superstar. You are worth it.” - Hiral Nagda</p>
                     <p>You are Unique. Let us Treat you like it...</p>
                 </div>
+
                 <div class="side-book-btn">
-                    <a class="book-link">book now !</a>
+                    <a class="book-link">book now !</a><!-- add booking link when available -->
                 </div>
+
                 <div class="down-arrow">
                     <a href="#about"><img class="arrow" src="./src/images/down-arrow.png" alt="arrow to take to next section"></a>
                 </div>
+
                 <div class="branding">
                     <p>@ 2022 <span class="name">La-Unique</span> Health & Beauty Salon</p>
                 </div>
+
             </div>
+
+            <!-- content section -->
             <div class="mid-section">
+
+                <!-- hidden div for link to have proper layout and scrolling when link in nav is clicked -->
                 <div id="about" class="hidden">1</div>
-                <div class="about">
+
+                <!-- About section -->
+                <section class="about">
+
                     <h2>About</h2>
+
                     <div class="welcoming">
+
                         <h3>Welcome to <span class="name">La-Unique</span></h3>
+
                         <div class="intro">
                             <img class="welcoming-img" src="./src/images/LaUnique.png">
-
                             <p>
                                 La Unique, directly means "You Unique", and along with our slogan "be treated like it", 
                                 you get the impression that "You are Unique" and should "be treated like it"...
@@ -103,20 +145,24 @@
                                 like it. We live by this motto. We are this motto.
                                 <br><span class="name">La-Unique</span> ... Be Treated Like It.  
                             </p>
-                            
                         </div>
+
                     </div>
 
+                    <!-- about info and btns for mobile -->
                     <div class="about-btns-container-m">
+
                         <div id="history-btn" class="his-btn" onclick="showHisMobile()">
                             <h4>A Journey Through Time</h4>
                             <img class="about-img" src="./src/images/history-icon.png" alt="history icon">
                             <p class="text-link"> - The History - </p>
                         </div>
-                        <div id="history-info-mobile" class="his-info-mobile">
-                            <h4>The History</h4>
-                            <div class="his-his">
 
+                        <div id="history-info-mobile" class="his-info-mobile">
+
+                            <h4>The History</h4>
+
+                            <div class="his-his">
                                 <p><span class="name">La-Unique</span>  Health and Beauty first open its doors in Middelburg 
                                     Mpumalanga in 2015. As mentioned previously the idea behind 
                                     <span class="name">La-Unique</span>  was, "you are unique, and you should be treated like it". 
@@ -127,10 +173,10 @@
                                     are located...
                                 </p>
                                 <img class="his-img" src="./src/images/corridor-small.jpg">
-
-                                
                             </div>
+
                             <p class="close" onclick="hideHisMobile()">close</p>
+
                         </div>
 
                         <div id="experience-btn" class="exp-btn" onclick="showExpMobile()">
@@ -138,8 +184,11 @@
                             <img class="about-img" src="./src/images/experience-icon.png" alt="experience icon"> 
                             <p class="text-link"> - The Experience - </p>
                         </div>
+
                         <div id="experience-info-mobile" class="exp-info-mobile">
+
                             <h4>The Experience</h4>
+
                             <div class="exp-exp">
                                 <p>The experience here at <span class="name">La-Unique</span>, is well...Unique...Theres no better way 
                                     to describe it. We stand by our motto, and will always treat you as unique as you rightfully 
@@ -147,20 +196,28 @@
                                     step out our salon, you wont feel better than when you came in, no, you will feel more Unique 
                                     than when you first came in.<br><span class="name">La-Unique</span> <br> Be treated like it. </p>
                                 <img class="exp-img" src="./src/images/vertical-massage.jpg">
-                                
                             </div>
+
                             <p class="close" onclick="hideExpMobile()">close</p>
+
                         </div>
 
                         <div id="salon-btn" class="sln-btn" onclick="showSlnMobile()">
+
                             <h4>The Perfect Place</h4>
+
                             <img class="about-img" src="./src/images/salon-icon.png" alt="salon icon">
+
                             <p class="text-link"> - The Salon - </p>
+
                         </div>
 
                         <div id="salon-info-mobile" class="sln-info-mobile">
+
                             <h4>The Salon</h4>
+
                             <div class="sln-sln">
+
                                 <div> 
                                     <p>As of 2022 <span class="name">La-Unique</span> salon is based at Homestead, Broderstroom, Hartbeesport, on the R512. The salon 
                                         is in an 1900's farm house converted to a "Trading House". Within Homestead theres a carwash, 
@@ -169,41 +226,60 @@
                                         burger or waffle while you are at it. Convenient right?
                                     </p>
                                     <p>Find out more about <a class="homestead-link" href="https://hartieshomestead.co.za/" target="_blank">Homestead!</a></p>
-
                                 </div>
                                 <img class="sln-img" src="./src/images/main-room-back-small.jpg"> 
 
-                            </div>      
+                            </div>    
+
                             <p class="close" onclick="hideSlnMobile()">close</p>
+
                         </div>
                     </div>
 
+                    <!-- about btns for large screens -->
                     <div class="about-btns-container">
+
                         <div id="history-btn" class="his-btn" onclick="showHis()">
+
                             <h4>A Journey Through Time</h4>
+
                             <img class="about-img" src="./src/images/history-icon.png" alt="history icon">
+
                             <p class="text-link"> - The History - </p>
+
                         </div>
 
                         <div id="experience-btn" class="exp-btn" onclick="showExp()">
+
                             <h4>A Feeling of Wonder</h4>
+
                             <img class="about-img" src="./src/images/experience-icon.png" alt="experience icon"> 
+
                             <p class="text-link"> - The Experience - </p>
+
                         </div>
 
                         <div id="salon-btn" class="sln-btn" onclick="showSln()">
+
                             <h4>The Perfect Place</h4>
+
                             <img class="about-img" src="./src/images/salon-icon.png" alt="salon icon">
+
                             <p class="text-link"> - The Salon - </p>
+
                         </div>
+
                     </div>
 
+                    <!-- about btns info for large screens -->
                     <div class="about-info-container">
+
                         <div id="history-info" class="his-info">
+
                             <h4>The History</h4>
+
                             <div class="his-his">
                                 <img class="his-img" src="./src/images/corridor-small.jpg">
-
                                 <p><span class="name">La-Unique</span>  Health and Beauty first open its doors in Middleburg 
                                     Mpumalanga in 2015. As mentioned previously the idea behind 
                                     <span class="name">La-Unique</span>  was, you are unique, and you should be treated like it. 
@@ -213,12 +289,16 @@
                                     call home. We are still the well established salon we were in Middleburg, the only difference is where we 
                                     are located...
                                 </p>
-                                
                             </div>
+
                             <p class="close" onclick="hideHis()">close</p>
+
                         </div>
+
                         <div id="experience-info" class="exp-info">
+
                             <h4>The Experience</h4>
+
                             <div class="exp-exp">
                                 <p>The experience here at <span class="name">La-Unique</span>, is well...Unique...Theres no better way 
                                     to describe it. We stand by our motto, and will always treat you as unique as you rightfully 
@@ -226,12 +306,16 @@
                                     step out our salon, you wont feel better than when you came in, no, you will feel more Unique 
                                     than when you first came in.<br><span class="name">La-Unique</span> <br> Be treated like it. </p>
                                 <img class="exp-img" src="./src/images/vertical-massage.jpg">
-                                
                             </div>
+
                             <p class="close" onclick="hideExp()">close</p>
+
                         </div>
+
                         <div id="salon-info" class="sln-info">
+
                             <h4>The Salon</h4>
+
                             <div class="sln-sln">
                                 <img class="sln-img" src="./src/images/main-room-back-small.jpg"> 
                                 <div> 
@@ -242,24 +326,34 @@
                                         burger or waffle while you are at it. Convenient right?
                                     </p>
                                     <p>Find out more about <a class="homestead-link" href="https://hartieshomestead.co.za/" target="_blank">Homestead!</a></p>
-
                                 </div>
-                            </div>      
-                            <p class="close" onclick="hideSln()">close</p>
-                        </div>
-                    </div>
-                </div>
+                            </div>  
 
+                            <p class="close" onclick="hideSln()">close</p>
+
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <!-- hidden div for link to have proper layout and scrolling when link in nav is clicked -->
                 <div id="treatments" class="hidden">1</div>
-                <div class="treatments">
+
+                <!-- treatment section -->
+                <section class="treatments">
+
                         <h2>Treatments</h2>
+
                         <p><span class="name">La-Unique</span> Health and Beauty Salon offers a variety of Treatments, they include but not limited to...</p>
-                        <!-- create view with images to show treatment catagory -->
+
                         <div class="treatment-preview">
+
                             <div class="cards">
                                 <img class="treatment-imgs" src="./src/images/nails1.jpg" alt="la unique treatment images">
                                 <p class="desc">nails</p>
                             </div>
+
                             <div class="cards">
                                 <img class="treatment-imgs" src="./src/images/massage-lrg1.jpg" alt="la unique treatment images">
                                 <p class="desc">massage</p>
@@ -268,31 +362,48 @@
                                 <img class="treatment-imgs" src="./src/images/facials1.jpg" alt="la unique treatment images">
                                 <p class="desc">facials</p>
                             </div>
+
                             <div class="cards">
                                 <img class="treatment-imgs" src="./src/images/eyelash1.jpg" alt="la unique treatment images">
                                 <p class="desc">eyelashes</p>
                             </div>
+
                             <div class="cards">
                                 <img class="treatment-imgs" src="./src/images/derma-pen1.jpg" alt="la unique treatment images">
                                 <p class="desc">Derma Pen</p>
                             </div>
+
                             <div class="cards">
                                 <img class="treatment-imgs" src="./src/images/waxing1.jpg" alt="la unique treatment images">
                                 <p class="desc">waxing</p>
                             </div>
                         
                         </div>
+
                         <p class="pricelist-link"><a class="pricelist-link" href="./src/files/updated la unique brouchure.pdf" target="_blank">View A Full Treatment List with Prices Here!</a></p>
 
-                </div>
+                </section>
+
+                <!-- hidden div for link to have proper layout and scrolling when link in nav is clicked -->
                 <div id="membership" class="hidden">1</div>
-                <div class="membership">
+
+                 <!-- membership section -->
+                <section class="membership">
+
                     <h2>Join Our Membership</h2>
+
                     <p>Coming Soon...</p>
-                </div>
+
+                </section>
+
+                <!-- hidden div for link to have proper layout and scrolling when link in nav is clicked -->
                 <div id="gallery" class="hidden">1</div>
-                <div class="gallery">
+
+                <!-- gallery section -->
+                <section class="gallery">
+
                     <h2>Gallery</h2>
+
                     <div class="img-container">
                         
                         <img class="imgs" src="./src/images/facials1.jpg" alt="gallary images">
@@ -304,38 +415,59 @@
                         <img class="imgs" src="./src/images/derma-pen1.jpg" alt="gallary images">
                         <img class="imgs" src="./src/images/massage-lrg1.jpg" alt="gallary images">
                         <img class="imgs" src="./src/images/nails1.jpg" alt="gallary images">
-                        <div class="hidden">1</div>
+                        <div class="hidden">1</div><!-- hidden for grid layout -->
                         <img class="imgs" src="./src/images/LaUnique.png" alt="gallary images">
-                        <div class="hidden">1</div>
+                        <div class="hidden">1</div><!-- hidden for grid layout -->
 
                     </div>
-                </div>
+                </section>
+
+                <!-- hidden div for link to have proper layout and scrolling when link in nav is clicked -->
                 <div id="contact" class="hidden">1</div>
-                <div class="contact">
+
+                <!-- contact section -->
+                <section class="contact">
+
                     <h2>Contact Us</h2>
+
                     <div class="contact-info">
+
+                        <!-- change to newer version -->
                         <div class="maps-location">
                             <h3>Visit us here:</h3>
                             <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=harties%20homestead&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:300px;}</style><a href="https://www.embedgooglemap.net">how to embed google map in website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:300px;}</style></div></div>
                         </div>
+
                         <div class="social-info">
+
                             <h3>Email:</h3>
+
                             <a href = "mailto:launique.salon@gmail.com">launique.salon@gmail.com</a>
+
                             <h3>Tel:</h3>
+
                             <a href="tel:0827889813">082 788 9813</a>
+
                             <h3>Social Media:</h3>
+
                             <div class="contact-socials">
                                 <a href="https://www.facebook.com/LaUniquehealthandbeauty/" target="_blank"><img class="social-img" src="./src/images/facebook-icon.png" alt="social media icon for facebook "></a>
                                 <a href="https://www.instagram.com/natashamoore7124/" target="_blank"><img class="social-img" src="./src/images/instagram-icon.png" alt="social media icon for instagram"></a>
                                 <a href="https://wa.me/0827889813" target="_blank"><img class="social-img" src="./src/images/whatsapp-icon.png" alt="social media icon for whatsapp "></a>
                                 <a href = "mailto:launique.salon@gmail.com"><img class="social-img" src="./src/images/email-icon.png" alt="social media icon for email"></a>        
                             </div>
-                        </div>
-                    </div>
-                </div>
 
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- footer -->
                 <footer class="footer">
+
                     <div class="footer-links">
+
                         <a>Make a Booking</a>
                         <a onclick="topFunction()">Home</a>
                         <a href="#about">About</a>
@@ -343,28 +475,41 @@
                         <a href="#treatments">Treatments</a>
                         <a href="#gallery">Gallery</a>
                         <a href="#membership">Membership</a>
+
                     </div>
+
                     <div class="footer-socials">
+                        
                         <a href="https://www.facebook.com/LaUniquehealthandbeauty/" target="_blank"><img class="social-img" src="./src/images/facebook-icon.png" alt="social media icon for facebook "></a>
                         <a href="https://www.instagram.com/natashamoore7124/" target="_blank"><img class="social-img" src="./src/images/instagram-icon.png" alt="social media icon for instagram"></a>
                         <a href="https://wa.me/0827889813" target="_blank"><img class="social-img" src="./src/images/whatsapp-icon.png" alt="social media icon for whatsapp "></a>
                         <a href = "mailto:launique.salon@gmail.com"><img class="social-img" src="./src/images/email-icon.png" alt="social media icon for email"></a>        
+                    
                     </div>
+                    
                     <div class="footer-logo">
                         <img class="logo-img" src="./src/images/LaUnique.png" alt=" La Unique logo" onclick="topFunction()">
                     </div>
+                    
                     <div class="branding">
                         <p>@ 2022 <span class="name">La-Unique</span> Health & Beauty Salon</p>
                     </div>
+                    
                     <div class="blank">
                         1
                     </div>    
+                    
                     <div class="creator">
-                        <a>By Michael Moore</a>
+                        <a class="creator"href=" https://www.fiverr.com/mikeman555" target="_blank">By Michael Moore</a>
                     </div>
+                
+                
                 </footer>
+            
             </div>
+        
         </main>
+    
     </div>
     <script src="./src/js/index.js" defer></script>
 </body>
